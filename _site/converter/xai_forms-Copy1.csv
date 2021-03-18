@@ -1,0 +1,968 @@
+Title,Year,"Venue
+(See Abbr -> Col-Q)",Paper URL,Feature Importanc (FIM),Probing (PRB),Tuple/Graph (TUP),Space Map (SPM),Rule/Grammar (RUL),Free Text (FRT),Concept/Sense (CPT),Example (EXP),Trigger (TRG),Word Cloud (WCL),Images (IMG),Confidence Score (CFD),
+"AttentionMeSH: Simple, Effective and Interpretable Automatic MeSH Indexer",2018,Proceedings of the 6th BioASQ Workshop A challenge on large-scale biomedical semantic indexing and question answering,https://www.aclweb.org/anthology/W18-5306/,"Visualize: Figure4;
+Description: 
+""At inference time, attention matrix provides wordlevel interpretation: For each MeSH prediction,
+the model shows which words are given high attention. It helps the indexers to evaluate and proofread the indexing results of our model. Figure 4
+shows an example of attention for interpretation.""",,,,,,,,,,,,"Venue Abbreviation
+
+AAAI: AAAI Conference on Artificial Intelligence
+AACL-IJCNLP: The Joint Conference of the Annual Meeting of the Association for Computational Linguistics and the International Joint Conference on Natural Language Processing
+ACL: International Conference of the Association of Computational Linguistics
+ACL-NLP4ConvAI: ACL NLP for Conversational AI workshop
+BlackboxNLP: Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP
+CHI: Conference on Human Factors in Computing Systems
+COLING: International Conference on Computational Linguistics
+CSCW: ACM Conference on Computer Supported Cooperative Work
+ECCV: European Conference on Computer Vision
+EMNLP: Conference on Empirical Methods in Natural Language Processing
+EMNLP FINDINGS: Findings of EMNLP
+HCOMP: AAAI Conference on Human Computation and Crowdsourcing
+ICCV: IEEE International Conference on Computer Vision
+ICDM: IEEE International Conference on Data Mining
+ICLR: The International Conference on Learning Representations 
+ICML: International Conference on Machine Learning
+IJCAI: International Joint Conference on Artificial Intelligence
+IUI: International Conference on Intelligent User Interfaces
+KDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+LREC: International Conference on Language Resources and Evaluation
+NAACL: North American Chapter of the Association for Computational Linguistics
+NeuIPS: Advances in Neural Information Processing Systems
+TACL: Transactions of the Association for Computational Linguistics"
+Attention interpretability across nlp tasks,2019,Arxiv,https://arxiv.org/pdf/1909.11218.pdf,"Visualize: None;
+Description: ""Attention Weights""",,,,,,,,,,,,
+Is attention interpretable?,2019,ACL,https://www.aclweb.org/anthology/P19-1282.pdf,"Visualize: None;
+Description: ""Visualize Attention Weights""",,,,,,,,,,,,
+Attention is not Explanation,2019,NAACL,https://arxiv.org/pdf/1902.10186.pdf,"Visualize: Figure 1
+Description: ""Attention Weights / Distribution""",,,,,,,,,,,,
+Attention is not not Explanation,2019,EMNLP,https://www.aclweb.org/anthology/D19-1002.pdf,"Visualize: Figure 2
+Description: Attention Distribution",,,,,,,,,,,,
+Towards Transparent and Explainable Attention Models,2020,ACL,https://arxiv.org/pdf/2004.14243.pdf,"Visualize: Table 1
+Description: Attention Distribution",,,,,,,,,,,,
+Interpretable Relevant Emotion Ranking with Event-Driven Attention,2019,EMNLP,https://www.aclweb.org/anthology/D19-1017.pdf,"Visualize:  Figure 1 & 4.
+Description:   word-level Event-Driven Attention",,,,,,,,,,,,
+Why Attention is Not Explanation: Surgical Intervention and Causal Reasoning about Neural Models,2020,LREC,https://www.aclweb.org/anthology/2020.lrec-1.220.pdf,"Visualize: None;
+Description: ""Attention Weights""",,,,,,,,,,,,
+Analyzing the Structure of Attention in a Transformer Language Model,2019,BlackboxNLP,https://www.aclweb.org/anthology/W19-4808.pdf,"Visualize:  Figure 1 & 4 .
+Description:  Attention in Transformer; Attention head view of GPT-2;
+
+Visualize:  Figure 2.
+Description: model view of GPT-2;
+
+Visualize:  Figure 3.
+Description: neuron view ;
+
+Visualize:  Figure 5 & 6 & 10-12.
+Description: Each heatmap shows the proportion of total attention
+
+Visualize:  Table 1-3;
+Description: word-level attention;",,,,,,,,,,,,
+The elephant in the interpretability room: Why use attention as explanation when we have saliency methods?,2020,BlackboxNLP,https://www.aclweb.org/anthology/2020.blackboxnlp-1.14.pdf,"Visualize: None;
+Description: ""Attention Weights"", ""Saliency""
+s a saliency (scalar) of input: gradient.
+Occlusion-based methods compute input saliency by occluding (or erasing) input features and measuring
+how that affects the model.",,,,,,,,,,,,
+Word2Sense: sparse interpretable word embeddings,2019,ACL,https://www.aclweb.org/anthology/P19-1570.pdf,,,,,,,"Visualize:  Table 1
+Description:  ""We describe precisely such an embedding of
+words in a space where each dimension corresponds to a sense. Words are represented as probability distributions over senses so that the magnitude of each coordinate represents the relative importance of the corresponding sense to the word.""",,,,,,
+Analytical methods for interpretable ultradense word embeddings,2019,EMNLP,https://www.aclweb.org/anthology/D19-1111.pdf,,,,,,,"Description:  
+""The objective is to find an orthogonal matrix Q ∈R d×d such that EQ is interpretable, i.e., the values of the first k dimensions correlate well with the linguistic feature""
+""By rotating word spaces, interpretable dimensions can be identified while preserving the information contained in the embeddings without any loss. In this work, we investigate three methods for making word spaces interpretable by rotation: Densifier (Rothe et al., 2016), linear SVMs and DensRay, a new method we propose. """,,,,,,
+What does this word mean? explaining contextualized embeddings with natural language definition,2019,EMNLP,https://www.aclweb.org/anthology/D19-1627.pdf,,,,,,,"Visualize:  Table 3
+Description:  ""this paper analyzes whether they can indicate the corresponding sense definitions and proposes a general framework that is capable of explaining word meanings given contextualized word embeddings for better interpretation.""",,,,,,
+"Identification, interpretability, and Bayesian word embeddings",2019,NAACL,https://www.aclweb.org/anthology/W19-2102.pdf,,,,,,,"Visualize:  Table 1 & 2.
+Description:  
+""Social scientists have recently turned to analyzing text using tools from natural language processing like word embeddings to measure concepts like ideology, bias, and affinity""
+""This method can be applied to as many
+words/concepts as the user is interested in (as the
+automated cosine similarity will handle the other
+dimensions)""",,,,,,
+Interpretable Word Embeddings via Informative Priors,2019,EMNLP,https://www.aclweb.org/anthology/D19-1661.pdf,,,,,,,"Description:  ”The central idea of this paper is to use informative priors to restrict the degree to which different
+words can inhabit different dimensions, such that
+one or more dimensions become interpretable and
+connected to one’s research interest. Specifically,
+we place informative priors on word types that we
+expect to discriminate on a particular dimension,
+e.g. man-woman for a gender dimension.“",,,,,,
+Neural vector conceptualization for word vector space interpretation,2019,NAACL,https://www.aclweb.org/anthology/W19-2001.pdf,,,,,,,"Visualize:  Figure1 & 2
+Description:  "" we train a neural model to conceptualize word vectors,
+which means that it activates higher order concepts it recognizes in a given vector. C""",,,,,,
+Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.431.pdf,,,,,,,"Visualize:  None
+Description: ""Due to the fact that we use mean-pooling, our approach may lend itself to interpretations of the bias in a model on average
+across contexts.""
+
+""While these works have provided nuanced finegrained analyses by creating new interpretability schema/techniques, we instead take an alternate approach of trying to re-purpose methods developed
+for analyzing static word embeddings.""",,,,,,
+SPINE: SParse Interpretable Neural Embeddings,2018,AAAI,https://arxiv.org/pdf/1711.08792.pdf,,,,,,,"Visualize:  Table1.
+Description: 
+""participants were asked to list the properties of
+several words and concepts, it was observed that they typically used few sparse characteristic properties to describe
+the words, with limited overlap between different words.""",,,,,,
+Are sixteen heads really better than one?,2019,NeuIPS,https://arxiv.org/pdf/1905.10650.pdf,"Description: ""Attention is a powerful and ubiquitous mechanism for allowing neural models to
+focus on particular salient pieces of information by taking their weighted average
+when making predictions. """,,,,,,,,,,,,
+What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models,2020,TACL,https://arxiv.org/pdf/1907.13528.pdf,,"Description: ""Probing on human psycholinguistic experiments.
+""we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language
+models for generating predictions in context.""",,,,,,,,,,,
+Assessing social and intersectional biases in contextualized word representations,2019,NeuIPS,https://arxiv.org/pdf/1911.01485.pdf,,"Description: ""May et al. adopt the WEAT tests [5] into Sentence Encoder Association Tests (SEATs) to test biases
+using sentence encodings. The embeddings used in the association tests are encodings of a sentence,
+which are obtained by pooling per token contextual representations, or by using the representation
+of the first or last token.""",,,,,,,,,,,
+"How contextual are contextualized word representations? Comparing the geometry of BERT, ELMo, and GPT-2 embeddings",2019,EMNLP-IJCNLP,https://arxiv.org/pdf/1909.00512.pdf,,"Description: ""To answer this question, we can measure a sentence’s intra-sentence
+similarity. Recall from Definition 2 that the intrasentence similarity of a sentence, in a given layer
+of a given model, is the average cosine similarity
+between each of its word representations and their
+mean, adjusted for anisotropy""",,"""we find that the contextualized representations of all words are not isotropic in any layer of the contextualizing model. While representations of the same word in different contexts still have a greater cosine similarity than those of two different words, this self-similarity is much lower in upper layers. This suggests that upper layers of contextualizing models produce more context-specific representations""",,,,,,,,,
+A structural probe for finding syntax in word representations,2019,NAACL,https://www.aclweb.org/anthology/N19-1419.pdf,,,"Visualize:Figure 2.
+Description: "" testing whether a neural network embeds each sentence’s dependency parse tree in its contextual word representations – a structural hypothesis.
+""Under a reasonable definition, to embed a graph is to learn a vector representation of each node such that geometry in the vector space—distances and norms—
+approximates geometry in the graph""",,,,,,,,,,
+Universal adversarial triggers for attacking and analyzing NLP,2019,EMNLP-IJCNLP,https://www.aclweb.org/anthology/D19-1221.pdf,,,,,,"Visualize: Table1;
+Description: ” We propose a gradientguided search over tokens which finds short trigger sequences (e.g., one word for classification and four words for language modeling) that successfully trigger the target prediction. “",,,"Triggers
+input-agnostic sequences of tokens that trigger a model to produce a specific prediction when concatenated to any input from a dataset",,,,
+ExpBERT: Representation Engineering with Natural Language Explanations,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.190.pdf,,,,,"Visualize: Figure1;
+Description: ""We then use these features to
+augment the input representation. Just as a semantic parser grounds an explanation by converting it into a logical form and then executing it, the features produced by BERT can be seen as a soft “execution” of the explanation on the input.""",,,,,,,,
+Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT,2020,ACL,https://arxiv.org/pdf/2004.14786.pdf,,"Description: ""we propose a parameter-free probing technique for
+analyzing pre-trained language models """,,,,,,,,,,,
+"Vokenization: Improving Language Understanding with Contextualized, Visual-Grounded Supervision",2020,EMNLP,https://arxiv.org/pdf/2010.06775.pdf,,,,,,,,,,,"Images
+""we develop a technique named “vokenization” that extrapolates multimodal alignments to language-only data by contextually mapping language tokens to their related images (which we call “vokens”).""",,
+Open Sesame: Getting Inside BERT's Linguistic Knowledge,2019,BlackboxNLP,https://www.aclweb.org/anthology/W19-4825.pdf,,"Description: ""We proceed in two ways. The first involves the
+use of diagnostic classifiers (Hupkes et al., 2018)
+to probe the presence of hierarchical and linear
+properties in the representations of words.""
+",,,,,,,,,,,
+What does bert look at? an analysis of bert's attention,2019,BlackboxNLP,https://arxiv.org/pdf/1906.04341.pdf,,"Description: ""We next probe each attention head for linguistic
+phenomena. In particular, we treat each head as a
+simple no-training-required classifier that, given a
+word as input, outputs the most-attended-to other
+word. We then evaluate the ability of the heads
+to classify various syntactic relations.""","Visualize: Figure1 & 5.
+Description: ""Examples of heads exhibiting the patterns discussed in Section 3. The darkness of a line indicates the strength of the attention weight (some attention weights are so low they are invisible).""","Visualize: Figure 6.
+Description: ""BERT attention heads embedded in twodimensional space. Distance between points approximately matches the average Jensen-Shannon divergences between the outputs of the corresponding heads.
+Heads in the same layer tend to be close together.""",,,,,,,,,
+A primer in bertology: What we know about how bert works,2020,TACL,https://arxiv.org/pdf/2002.12327.pdf,"Visualiize: Figure 1 & 3.
+Description:  ""Attention patterns in BERT.""
+",,"Visualize: Figure 1.
+Description: ""Parameter-free"" probe for syntactic knowledge: words sharing syntactic subtrees have larger impact on each other in the MLM prediction.",,,,,,,,,,
+What Does BERT Learn about the Structure of Language?,2019,ACL,https://www.aclweb.org/anthology/P19-1356.pdf,,"Description: ""we use probing tasks to assess individual model layers in their ability to
+encode different types of linguistic features""","Visualize: Figure 2.
+Description: ""Dependency parse tree induced from attention head #11 in layer #2 using gold root (‘are’) as starting node for maximum spanning tree algorithm.""","Visualize: Figure1.
+Description: ""2D t-SNE plot of span embeddings computed from the first and last two layers of BERT.""",,,,,,,,,
+BERT Rediscovers the Classical NLP Pipeline,2019,ACL,https://www.aclweb.org/anthology/P19-1452.pdf,,"Description: ""Our experiments are based on the “edge probing” approach,  which aims to measure how well information about linguistic structure can be extracted from a pre-trained encoder.""
+
+""We use eight labeling tasks from the edge
+probing suite: part-of-speech (POS), constituents
+(Consts.), dependencies (Deps.), entities, semantic role labeling (SRL), coreference (Coref.), semantic proto-roles (SPR; Reisinger et al., 2015), and relation classification (SemEval). """,,,,,,,,,,,
+Visualizing and Understanding the Effectiveness of BERT,2019,EMNLP-IJCNLP,https://arxiv.org/pdf/1908.05620.pdf,,,,"Loss Surface / Optimization Trajectory:
+Visualize: Figure 1, Figure 3 & 4 & 6 & 7.
+Description: ""Training loss surfaces of training from scratch (top) and fine-tuning BERT (bottom) on four datasets. We annotate the start point (i.e., initialized model) and the end point (i.e., estimated model) in the loss surfaces""",,,,,,,,,
+What can AI do for me? evaluating machine learning interpretations in cooperative play,2019,IUI,https://arxiv.org/pdf/1810.09648.pdf,"Visualize: Figure 1. Figure 7 & 8 / Question.
+Description: ""Highlighting Important Features. Model predictions can be explained by highlighting the most salient features in the input, typically visualized by a heat map. """,,,,,,,"Visualize: Figure 1 / Evidence.
+Description: ""Interpretation by Example. We can explain a prediction on a
+test example by finding the most influential training examples.
+Various metrics exist for finding important training examples, such
+as distance in the representation space which is natural to linear
+models, clustering algorithms and their deep variation [49], and
+influence functions [33] for non-linear models.""",,,,"Uncertainty Score:
+Visualize: Figure 1 / Guesses.
+Description: ""Conveying Uncertainty. Augmenting the prediction from a neural
+network classifier with a confidence score (a value between zero and
+one) conveys the uncertainty of the model. In a cooperative setting,
+the uncertainty helps humans decide to trust the model or not [3, 57].
+To make it more informative, we can also display the confidence for
+the classes other than the top one""",
+Pathologies of Neural Models Make Interpretations Difficult,2018,EMNLP,https://arxiv.org/pdf/1804.07781.pdf,"Visualize: Figure 1 & 2. Figure 5 & 6 & 7.
+Description: ""We use input reduction, which iteratively removes the least important word from the input.""",,,,,,,,"Visualize: Figure 1 & 2. Figure 5 & 6 & 7.
+Description: ""We use input reduction, which iteratively removes the least important word from the input.""",,,,
+Eraser: A benchmark to evaluate rationalized nlp models,2020,ACL,https://arxiv.org/pdf/1911.03429.pdf,"Visualize: Figure 1.
+Description: "" Examples of instances, labels, and rationales
+illustrative of four (out of seven) datasets included in
+ERASER. The ‘erased’ snippets are rationales""",,,,,,,,,,,,
+Towards Faithfully Interpretable NLP Systems: How should we define and evaluate faithfulness?,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.386.pdf,,,,,,,,,,,,,
+Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.491.pdf,,,,,Visualize: Figure2 - Anchor.,,,Visualize: Figure2 - Prototype;,,,,"Confidence Score/Probability:
+Visualize: Figure2 (Decision Boundary & LIME);
+Description: ""
+
+
+",
+Obtaining Faithful Interpretations from Compositional Neural Networks,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.495.pdf,,,,,"Visualize: Figure2.
+Description: "" An example for a mapping of an utterance to a gold program and a perfect execution in a reasoning problem""",,,,,,,,
+Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.419.pdf,"Visualize: Figure1.
+Description: ""Examples of binary human attention (blue in
+top two texts) and continuous machine attention (red in
+bottom text)""
+
+Visualize: Figure2.
+Description: ""User interface we used for data collection on
+Amazon Mechanical Turk.""",,,,,,,,,,,,
+Human Attention in Visual Question Answering: Do Humans and Deep Networks look at the same regions?,2016,EMNLP,https://www.aclweb.org/anthology/D16-1092.pdf,"Visualize: Figure 1 & 2 & 3 & 4.
+Description: ""we introduce the VQA-HAT (Human ATtention)
+dataset. We evaluate attention maps generated
+by state-of-the-art VQA models against human attention both qualitatively (via visualizations) and quantitatively (via rank-order correlation).""",,,,,,,,,,,,
+Comparing Automatic and Human Evaluation of Local Explanations for Text Classification,2018,NAACL,https://www.aclweb.org/anthology/N18-1097.pdf,"Visualize: Figure1.
+Description: ""We focus on explanations based on
+saliency scores on the movie dataset.""
+"" we focus on local explanation approaches that identify the most influential parts of the input for a particular prediction. """,,,,,,,,,,,,
+The Promise and Peril of Human Evaluation for Model Interpretability,2019,,https://arxiv.org/pdf/1711.07414v1.pdf,,,,"Description: ""An interpretable explanation, or explanation, is a simple model, visualization, or text description that lies in an interpretable feature space and approximates a more complex model.""",,"Description: ""In contrast to descriptive explanations, persuasive explanation strategiesdo not achieve maximum
+model fidelity and often incorporate user preferences, knowledge, or characteristics. Much like a
+persuasive argument, these explanations balance accuracy with being convincing to the user. """,,,,,,,
+Evaluating and Characterizing Human Rationales,2020,EMNLP,https://arxiv.org/pdf/2010.04736.pdf,"Visualize: Figure1.
+Description: ""Example rationales drawn from various datasets. Underlined tokens are rationales provided by humans. Human annotators can fail to produce faithful rationales (row 1 and 2), and fidelity metrics themselves can be misleading (row 3 and 4).""",,,,,,,,,,,,
+A Diagnostic Study of Explainability Techniques for Text Classification,2020,EMNLP,https://arxiv.org/pdf/2009.13295.pdf,"Visualize: Figure1.
+Description: ""Example of the saliency scores for the words
+(columns) of an instance from the Twitter Sentiment
+Extraction dataset. They are produced by the explainability techniques (rows) given a Transformer model. The first row is the human annotation of the salient words.""",,,,,,,,,,,,
+No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML,2020,CHI,https://homes.cs.washington.edu/~weld/papers/smith-renner-chi20.pdf,"Visualize: Figure1.
+Description: "" an email in the “interaction phase” for a participant in the feature-level feedback and explanation condition (E-F).""",,,,,,,,,,,,
+LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation,2020,ACL,https://www.aclweb.org/anthology/2020.acl-demos.42.pdf,"Visualize: Figure3.
+Description: ""The workflow to annotate a NE label and trigger span""",,"Visualize: Figure1 & 5.
+Description: ""The workflow to annotate a NE label and trigger span""",,,"Visualize: Figure4.
+Description: ""The workflow to annotate a relation label and
+NL explanation""",,,,,,,
+Learning from Explanations with Neural Execution Tree,2020,ICLR,https://openreview.net/pdf?id=rJlUt0EYwS,,,,,"Visualize: Figure2.
+Description: ""Natural language explanations are firstly parsed into
+logical forms. ""
+
+Visualize: Figure3.
+Description: ""Neural Execution Tree (NExT) softly executes the logical form on the sentence.""",,,,,,,,
+Using “Annotator Rationales” to Improve Machine Learning for Text Categorization,2007,NAACL,https://www.aclweb.org/anthology/N07-1033.pdf,"Description: Our goal is to learn from smaller
+amounts of supervised training data, by collecting a
+richer kind of training data: annotations with “rationales.”""",,,,,,,,,,,,
+Principles of Explanatory Debugging to Personalize Interactive Machine Learning,2015,IUI,https://openaccess.city.ac.uk/id/eprint/13819/1/paper326.pdf,"Visualize: Figure1.
+Description: ""The Why explanation tells users how features and
+folder size were used to predict each message’s topic. T""",,,,,,,,,,,,
+Towards Accountable AI: Hybrid Human-Machine Analyses for Characterizing System Failure,2018,HCOMP,https://arxiv.org/pdf/1809.07424.pdf,,,"Visualize: Figure3 & 4.
+Description: ""To illustrate the failure conditions learned by decision trees
+in Pandora, we show tree examples for different types of views""",,,,"Visualize: Table 2 & 3 & 4 & 5.
+Description: ""System performance is non-uniform and varies
+significantly across topical clusters.""",,,,,,
+Learning credible deep neural networks with rationale regularization,2019,ICDM,https://arxiv.org/pdf/1908.05601.pdf,"Visualize: Figure1.
+Description: ""Two examples of expert rationale: words marked with purple
+color, for movie review and product review respectively.""
+
+Visualize: Figure3.
+Description: ""Sentence-level explanation heatmap comparison between
+CREX and Vanilla DNN.""",,,,,,,,,,,,
+Rethinking Cooperative Rationalization: Introspective Extraction and Complement Control,2019,EMNLP,https://arxiv.org/pdf/1910.13294.pdf,"Visualize: Figure1, Table 2.
+Description: ""An example of the rationales extracted by different
+models on the sentiment analysis task of beer reviews (appearance aspect).""",,,,,,,,,,,,
+Joint Concept Learning and Semantic Parsing from Natural Language Explanations,2017,EMNLP,https://www.aclweb.org/anthology/D17-1161.pdf,,,,,,,"Visualize: Figure1.
+Description: ""An example of the rationales extracted by different
+models on the sentiment analysis task of beer reviews (appearance aspect).""",,,,,,
+Training Classifiers with Natural Language Explanations,2018,ACL,https://www.aclweb.org/anthology/P18-1175.pdf,,,,,"Visualize: Figure1 & 2 & 3 & 5.
+Description: "" A semantic parser converts these explanations into programmatic labeling functions that generate noisy labels for an arbitrary amount of
+unlabeled data, which is used to train a classifier.""","Visualize: Figure1 & 2.
+Description: ”we propose BabbleLabble, a framework for training
+classifiers in which an annotator provides
+a natural language explanation for each
+labeling decision. “",,,,,,,
+Do Human Rationales Improve Machine Explanations?,2019,BlackboxNLP,https://www.aclweb.org/anthology/W19-4807.pdf,"Visualize: Table2.
+Description: ""we show that learning with rationales can also improve
+the quality of the machine’s explanations as
+evaluated by human judges.""
+
+"" for CNNbased text classification, explanations generated using “supervised attention” are judged superior to explanations generated using normal unsupervised attention.""",,,,,,,,,,,,
+Lstmvis: A tool for visual analysis of hidden state dynamics in recurrent neural networks,2017,IEEE transactions on visualization and computer graphics,https://arxiv.org/pdf/1606.07461.pdf,"Visualize: Figure1 (c) .
+Description: ""To select, the user brushes over a range of words that form the pattern
+of interest""",,"Visualize: Figure 1.
+Description: ""(a). This range is then used to match similar hidden state patterns displayed in the Match View (b). The selection is made
+by specifying a start-stop range in the text (c) and an activation threshold (t) which leads to a selection of hidden states (blue lines).""","Visualize: Figure 9.
+Description: ""PCA projection of the hidden state patterns""","Visualize: Figure 1 & 8.
+Description: ""Note that here groundtruth noun phrases are indicated with a sequence of colors: cyan (DET),
+blue (ADV), violet (ADJ), red (NOUN).""",,,"Visualize: Figure 1 & 8.
+Description: ""The tool allows users to select a hypothesis input range to focus on local state changes, to match these states changes to similar patterns in a large data set,""",,,,,
+Seq2seq-vis: A visual debugging tool for sequence-to-sequence models,2018,IEEE transactions on visualization and computer graphics,https://arxiv.org/pdf/1804.09299.pdf,"Visualize: Figure 7.
+Description: ""Overview of Seq2Seq-Vis: The two main views (a) Translation View and (b) Neighborhood View facilitate different modes of analysis.
+Translation View provides (c) visualizations for attention, (d) the top k word predictions for each time step""",,"Visualize: Figure 5 & 6.
+Description: "" Hypotheses: Attention (S3), Prediction (S4), or Beam Search (S5)
+Error – encoder words and decoder words (E/D), Attention (S3), top k
+predictions for each time step in decoder (S4), and beam search tree
+(S5)""","Visualize: Figure 3 & 4.
+Description: ""Hypothesis: Decoder (S2) Error – nearest neighbors of decoder
+state for gets and streets, which are close in projection space.""",,,,"Visualize: Figure 7.
+Description: "" (h) a list of nearest neighbors
+for a specific model state.""",,,,,
+Allennlp interpret: A framework for explaining predictions of nlp models,2019,EMNLP,https://www.aclweb.org/anthology/D19-3002.pdf,"Visualize: Figure 1 & 2 & 3.
+Description: ""An interpretation generated using AllenNLP
+Interpret for NER. The model predicts three tags for an
+input (top). We interpret each tag separately, e.g., input
+reduction (bottom) removes as many
+words as possible without changing a tag’s prediction.
+Input reduction shows that the words “named”, “at”,
+and “in downtown” are sufficient to predict the People, Organization, and Location tags, respectively..""",,,,"Visualize: Figure1.
+Description: ""An interpretation generated using AllenNLP
+Interpret for NER. The model predicts three tags for an
+input (top). We interpret each tag separately"".",,,,,,,,
+exbert: A visual analysis tool to explore learned representations in transformers models,2020,ACL,https://arxiv.org/pdf/1910.05276.pdf,"Visualize: Figure 1 & 3.
+Description: ""Users can enter a sentence in (a) and modify the attention view through selections in (b). Self
+attention is displayed in (c). The blue matrices show the attention of a head (column) to a token (row).""",,,,"Visualize: Figure 1 & 2.
+Description: ""Every token in (d) displays its linguistic metadata on hover""",,,"Visualize: Figure 1.
+Description: ""Tokens and heads that are selected in (c) can be searched over the annotated corpus (shown: Wizard of Oz) with results presented in (d). """,,,,"Precition Confidence
+Visualize: Figure1.
+Description: ""The histograms in (f) and (g) summarize the
+metadata of the results in (d) for the matched token and the token of max attention, respectively""",
+Captum: A unified and generic model interpretability library for PyTorch,2020,Arxiv,https://arxiv.org/pdf/2009.07896.pdf,"Visualize: Figure 3.
+Description: "": Visualizing salient tokens computed by integrated gradients that contribute to the predicted class using a binary classification model trained on IMDB dataset.""",,,,,,,,,,,,
+"The Language Interpretability Tool: Extensible, Interactive Visualizations and Analysis for NLP Models",2020,EMNLP,https://arxiv.org/pdf/2008.05122.pdf,"Visualize: Figure 1 & 2 & 3.
+Description: ""Tabs present different modules in the bottom half; the view above
+shows classifier predictions, an attention visualization, and a confusion matrix.""",,"Visualize: Figure 3.
+Description: ""Exploring a coreference model on the Winogender dataset.""","Visualize: Figure 1.
+Description: ""The top half shows a selection toolbar, and, left-to-right: the embedding
+projector, the data table, and the datapoint editor. ""","Visualize: Figure 3.
+Description: ""Exploring a coreference model on the Winogender dataset.""","Visualize: Figure 4.
+Description: "": Investigating a local generation error, from selection of an interesting example to finding relevant training datapoints that led to an error.""",,"Visualize: Figure 1.
+Description: ""The top half shows a selection toolbar, and, left-to-right: the embedding
+projector, the data table, and the datapoint editor. """,,,,"Prediction Confidence
+Visualize: Figure1.
+Description: """"Tabs present different modules in the bottom half; the view above
+shows classifier predictions, an attention visualization, and a confusion matrix.""""""",
+Does String-Based Neural MT Learn Source Syntax?,2016,EMNLP,https://www.isi.edu/natural-language/mt/emnlp16-nmt-grammar.pdf,,,,,"Visualize: Figure1 & 2 & 6.
+Description: ""A fine-grained analysis of the syntactic structure learned by the
+encoder reveals which kinds of syntax are learned and which are missing.""",,,,,,,,
+Lightly-supervised representation learning with global interpretability,2019,NAACL,https://www.aclweb.org/anthology/W19-1504.pdf,,,,"Visualize: Figure1 & 2.
+Description: ""t-SNE visualizations of the entity embeddings at three stages during training.""",,,,,,,,,
+Explaining Character-Aware Neural Networks for Word-Level Prediction: Do They Discover Linguistic Rules?,2018,EMNLP,https://www.aclweb.org/anthology/D18-1365.pdf,"Visualize: Figure1 & 4 & 5.
+Description: "" Individual character contributions of the
+Spanish adjective económicas.""
+""Character-level contributions for predicting a particular class.""",,,,,,,,,,,,
+A Shared Attention Mechanism for Interpretation of Neural Automatic Post-Editing Systems,2018,ACL,https://www.aclweb.org/anthology/W18-2702.pdf,"Visualize: Figure 1 & 2 & 3 & 4.
+Description: "" we propose a neural APE system that encodes
+the source (src) and machine translated (mt) sentences with two separate encoders, but leverages a shared attention mechanism to better understand how the two inputs contribute to the generation of the post-edited (pe) sentences.""",,,,,,,,,,,,
+Multi-Granular Text Encoding for Self-Explaining Categorization,2019,ACL,https://www.aclweb.org/anthology/W19-4805.pdf,"Visualize: Table1.
+Description: ""A popular type of evidence
+is sub-sequences extracted from the input text
+which are sufficient for the classifier to make
+the prediction.""",,"Visualize: Figure2.
+Description: "" we define multigranular ngrams as basic units for explanation,
+and organize all ngrams into a hierarchical
+structure, so that shorter ngrams can be reused
+while computing longer ngrams. We leverage a tree-structured LSTM to learn a contextindependent representation for each unit via
+parameter sharing.""",,,,,,,,,,
+Unsupervised Discrete Sentence Representation Learning for Interpretable Neural Dialog Generation,2018,ACL,https://www.aclweb.org/anthology/P18-1101.pdf,,,,,,,"Visualize: Table 5 & 8.
+Description: ""Example latent actions discovered in
+SMD using our methods.""
+"" Interpretable dialog generation on SMD
+with top probable latent actions. AE-ED predicts
+more fine-grained but more error-prone actions.""",,,,,,
+Interpretation of Natural Language Rules in Conversational Machine Reading,2018,EMNLP,https://www.aclweb.org/anthology/D18-1233.pdf,,,,,"Visualize: Figure 2 & 3.
+Description: ""We use different annotators (indicated by
+different colors) to create the complete dialog tree.""
+""The different stages of the annotation process (excluding the rule text extraction stage)""",,,,,,,,
+OpenDialKG: Explainable Conversational Reasoning with Attention-based Walks over Knowledge Graphs,2019,ACL,https://www.aclweb.org/anthology/P19-1081.pdf,,,"Visualize: Figure1.
+Description: ""Conversational reasoning with a parallel (a)
+dialog and (b) knowledge graph (KG) corpus.  Diverse
+topical jumps across open-ended multi-turn dialogs are
+annotated and grounded with a large-scale commonfact KG.""",,,,,,,,,,
+Do Neural Dialog Systems Use the Conversation History Effectively? An Empirical Study,2019,ACL,https://arxiv.org/pdf/1906.01603.pdf,,,,,,,,,"Dialog history perturbation
+Description: ""we take an empirical approach to understanding how these models use the available dialog history by studying the sensitivity of the models to artificially introduced unnatural changes or perturbations
+to their context at test time""",,,,
+Knowledge Aware Conversation Generation with Explainable Reasoning over Augmented Graphs,2019,EMNLP,https://www.aclweb.org/anthology/D19-1187.pdf,,,"Visualize: Figure1.
+Description: ""Sample conversation with explainable reasoning,
+reflecting conversation flow, on an augmented knowledge
+graph.""",,,,,,,,,,
+Constructing Interpretive Spatio-Temporal Features for Multi-Turn Responses Selection,2019,ACL,https://www.aclweb.org/anthology/P19-1006.pdf,"Visualize: Figure1.
+Description: ""Examples of the Ubuntu dataset provided by
+NOESIS 1. Text segments with the same color symbols
+across context and response can be seen as matched
+pairs.""",,,,,,,,,,,,
+Analysing the potential of seq-to-seq models for incremental interpretation in task-oriented dialogue,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5419.pdf,"Visualize: Figure2 & 3.
+Description: "" Alignment of in- and output words via the attention for different models tested on bAbI+ data""
+""A labelled example sentence to evaluate whether models have distinct representations for
+reparanda, repairs, and editing terms""","Description: ""First, we probe the representations of the encoder part of the model while it
+processes incoming sentences, for which we use
+again diagnostic classifiers. """,,,,,,,,,,,
+Probing Neural Dialog Models for Conversational Understanding,2020,ACL-NLP4ConvAI,https://arxiv.org/pdf/2006.08331.pdf,,"Visualize: Figure1.
+Description: "" we analyze
+the internal representations learned by neural
+open-domain dialog systems and evaluate the
+quality of these representations for learning
+basic conversational skills.""",,,,,,,,,,,
+Designing and Interpreting Probes with Control Tasks,2019,EMNLP,https://arxiv.org/pdf/1909.03368.pdf,,"Visualize: Figure1.
+Description: ""Our control tasks define random behavior (like
+a random output, top) for each word type in the vocabulary.
+Each word token is assigned its type’s output, regardless of
+context (middle, bottom.) Control tasks have the same input
+and output space as a linguistic task (e.g., parts-of-speech) but
+can only be learned if the probe memorizes the mapping.""","Visualize: Figure3.
+Description: "" Example dependency tree from the development set of the Penn Treebank with dependents pointing at heads, and the structure resulting from our dependency edge prediction control task on the same sentence""",,,,,,,,,,
+Visualizing and Understanding Neural Models in NLP,2016,NAACL,https://www.aclweb.org/anthology/N16-1082.pdf,"Visualize: Figure1 & 3 & 6 & 8 & 9.
+Description: "" Visualizing intensification and negation. Each
+vertical bar shows the value of one dimension in the final
+sentence/phrase representation after compositions.""",,"Visualize: Figure2 & 4.
+Description: "" t-SNE Visualization on latent representations for modifications and negations""",,,,,,,,,,
+Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions,2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.492.pdf,,,,,,,,"Visualize: Figure1, Table5.
+Description: ""Note that this example is classified incorrectly by the model. Positive saliency tokens and highly influential examples may suggest why the model makes the wrong decision; tokens and examples with negative saliency or influence scores may decrease the model’s confidence in making that decision.""",,,,,
+Explain Yourself! Leveraging Language Models for Commonsense Reasoning,2019,ACL,https://arxiv.org/pdf/1906.02361.pdf,,,,,,"Visualize: Table1 & 7.
+Description: ""We collect human explanations for commonsense reasoning in the form of natural language sequences and highlighted annotations in a new dataset called Common Sense Explanations (CoS-E). We use CoS-E to train language models to automatically generate explanations that can be used during training and inference in a novel Commonsense Auto-Generated Explanation (CAGE) framework.""",,,,,,,
+Self-Assembling Modular Networks for Interpretable Multi-Hop Reasoning,2019,EMNLP,https://www.aclweb.org/anthology/D19-1455.pdf,"Visualize: Figure3.
+Description: ""The controller’s multi-hop attention map on the question (randomly chosen from the first 10 dev
+examples). This attention is used to compute the subquestion representation that is passed to the modules.""",,,,"Visualize: Figure1.
+Description: "" In this work, we present an interpretable, controllerbased Self-Assembling Neural Modular Network (Hu et al., 2017, 2018) for multi-hop reasoning, where we design four novel modules (Find, Relocate, Compare, NoOp) to perform unique types of language reasoning""",,,,,,,,
+Trick Me If You Can: Human-in-the-Loop Generation of Adversarial Examples for Question Answering,2019,TACL,https://arxiv.org/pdf/1809.02701.pdf,"Visualize: Figure3 & 8 & 9.
+Description: ""The author writes a question (top right), the QA system provides guesses (left), and explains
+why it makes those guesses (bottom right). """,,,,,,,,,,,,
+"Explore, Propose, and Assemble: An Interpretable Model for Multi-Hop Reading Comprehension",2019,ACL,https://arxiv.org/pdf/1906.05210.pdf,,,"Visualize: Figure 1 & 3.
+Description: "": Two examples from the QAngaroo WikiHop dataset where it is necessary to combine information spread across multiple documents to infer the correct answer.""
+"" A ‘reasoning tree’ with 4 leaves that lead to
+different answers (marked in bold). The ground-truth
+answer is marked in red additionally.""",,,,,,,,,,
+Multi-hop question answering via reasoning chains,2019,Arxiv,https://arxiv.org/pdf/1910.02610.pdf,,,"Visualize: Figure1.
+Description: ""A multi-hop example chosen from the HotpotQA development set. Several documents are given as context to answer a question. We show two possible “reasoning chains” that leverage connections (shared entities or coreference relations) between sentences to arrive at the answer. The first chain is most appropriate, while the second requires a less well-supported inferential leap.""",,,,,,,,,,
+Do Multi-hop Readers Dream of Reasoning Chains?,2019,ACL,https://arxiv.org/pdf/1910.14520.pdf,,,"Description: ""our analysis investigates that whether providing the full reasoning
+chain of multiple passages, instead of just one
+final passage where the answer appears, could
+improve the performance of the existing QA
+models.""",,,,,,,,,,
+Interpretable Question Answering on Knowledge Bases and Text,2019,ACL,https://www.aclweb.org/anthology/P19-1488.pdf,"Description:""We explore interpretability in the context of
+QA on a combination of KB and text. In particular, we apply attention, LIME and input
+perturbation (IP).""",,,,,,,,,,,,
+Does it care what you asked? Understanding Importance of Verbs in Deep Learning QA System,2018,BlackboxNLP,https://arxiv.org/pdf/1809.03740.pdf,"Visualize: Figure1.
+Description: ""Visualization of values in LSTM hidden layers for a noun (top), verb (middle) and question mark
+(bottom). """,,,,,,,,,,,,
+Chains-of-Reasoning at TextGraphs 2019 Shared Task: Reasoning over Chains of Facts for Explainable Multi-hop Inference,2019,EMNLP,https://www.aclweb.org/anthology/D19-5313.pdf,,,"Visualize: Figure1 & 2.
+Description: ""A subgraph of facts from the WorldTree corpus that explains the answer to the question""",,,,,,,,,,
+Learning to Explain: Answering Why-Questions via Rephrasing,2019,ACL,https://www.aclweb.org/anthology/W19-4113.pdf,,,,,,"Visualize: Figure1.
+Description: "" we contribute to the under-explored area of generating natural language explanations for general phenomena. We automatically collect large datasets of
+explanation-phenomenon pairs which allow us
+to train sequence-to-sequence models to generate natural language explanations. """,,,,,,,
+How much should you ask? On the question structure in QA systems,2018,BlackboxNLP,https://arxiv.org/pdf/1809.03734.pdf,"Description: ""We use LIME in QA model for determining
+which parts of question are substantial for obtaining right answer.""",,,,,,,,,,,,
+"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",2018,EMNLP,https://www.aclweb.org/anthology/D18-1259.pdf,"Visualize: Figure1. Table3.
+Description: "" An example of the multi-hop questions in
+HOTPOTQA. We also highlight the supporting facts in
+blue italics, which are also part of the dataset.""",,,,,,,,,,,,
+Did the Model Understand the Question?,2018,ACL,https://arxiv.org/pdf/1805.05492.pdf,"Visualize: Figure1 & 3. Table 4.
+Description: ""Visualization of attributions (word importances) for a question that the network gets right. """,,,,,,,,,,,,
+Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering,2020,ACL,https://arxiv.org/pdf/2005.01218.pdf,,,,,,,,"Visualize: Figure 1 & 2.
+Description: ""Evidence retrieval is a critical stage of question answering (QA), necessary not only to improve performance, but also to explain the decisions of the corresponding QA method. We introduce a simple, fast, and unsupervised iterative evidence retrieval method,""",,,,,
+Towards Explainable NLP: A Generative Explanation Framework for Text Classification,2019,ACL,https://www.aclweb.org/anthology/P19-1560.pdf,,,,,,"Visualize: Table 9.
+Description: ""we propose a novel generative explanation framework that learns to make classification decisions and generate fine-grained explanations
+at the same time. More specifically, we introduce the explainable factor and the minimum
+risk training approach that learn to generate
+more reasonable explanations.""",,,,,,,
+Interpreting Neural Network Hate Speech Classifiers,2018,EMNLP,https://www.aclweb.org/anthology/W18-5111.pdf,"Visualize: Figure2 & 3.
+Description: "" Partial occlusion heatmaps of test examples demonstrating four types of errors made by the CNN-GRU
+network. """,,,,,,,,,,,,
+Interpretable emoji prediction via label-wise attention LSTMs,2018,EMNLP,https://www.aclweb.org/anthology/D18-1508.pdf,"Visualize: Figure 3 & 4.
+Description: "" Attention weights α and αl of single and
+label-wise attentive models.""",,,,,,,,,,,,
+Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications,2019,NAACL,https://arxiv.org/pdf/1905.00563.pdf,,,,,"Visualize: Table 5. Figure1.
+Description: ""Extracted Rules for identifying the most influential link. We extract the patterns that appear more
+than 90% times in the neighborhood of the target triple.""",,,,,,,,
+Self-Critical Reasoning for Robust Visual Question Answering,2019,NeuIPS,https://arxiv.org/pdf/1905.09998.pdf,"Visualize: Figure2 & 4.
+Description: ""We then analyze the correct answer’s sensitivity (Fork) to the detected objects via visual explanation and extract the most influential one in the proposal object set as the most influential object, which is also further strengthened via the influence strengthen loss
+(left bottom block). """,,,"Decision Boundaries:
+Visualize: Figure3.
+Description: ""Decision boundaries and test set accuracies on synthetic data with various class ratios p, which is varied from 0.05, 0.1, 0.2, to 0.5 from left to right""",,,,,,,,,
+Tell-and-answer: Towards explainable visual question answering using attributes and captions,2018,EMNLP,https://arxiv.org/pdf/1801.09041.pdf,,,,,,"Visualize: Figure1 & 8.
+Description: "" An example of explanation and reasoning in
+VQA. We first extract attributes in the image such as “sit”,
+“phone” and “woman.” A caption is also generated to encode the relationship between these attributes, e.g. “woman
+sitting on a bench.” Then a reasoning module uses these
+explanations to predict an answer “talking on the phone.”""",,,,,,,
+Generating question relevant captions to aid visual question answering,2019,ACL,https://arxiv.org/pdf/1906.00513.pdf,"Visualize: Figure 4 & 5.
+Description: ""An example of caption attention adjustment.
+The question-relevant caption helps the VQA module
+adjust the visual attention from both the yellow board
+and the blue sail to the yellow board only.""",,,,,"Visualize: Figure 1 & 4 & 5.
+Description: ""Examples of our generated question-relevant
+captions. During the training phase, our model selects
+the most relevant human captions for each question
+(marked by the same color).""",,,,,,,
+Ensembling Visual Explanations for VQA,2017,Proceedings of the NIPS 2017 workshop on Visually-Grounded Interaction and Language (ViGIL),https://www.cs.utexas.edu/~ml/papers/rajani.vigil17.pdf,"Visualize: Figure 1 & 2.
+Description: ""In this paper, we propose different methods for ensembling visual
+explanations for VQA using the localization maps of the component systems. Our
+crowd-sourced human evaluation indicates that our ensemble visual explanation
+is superior to each of the individual system’s visual explanation""",,,,,,,,,,,,
+Using Explanations to Improve Ensembling of Visual Question Answering Systems,2017,Proceedings of the IJCAI 2017 Workshop on Explainable Artificial Intelligence (XAI),https://www.cs.utexas.edu/users/ml/papers/rajani.xai17.pdf,"Visualize: Figure 3.
+Description: "": On the left is an image from the VQA dataset and on the right is the heat-map overlaid on the image for the question - ’What is the man eating?’""",,,,,,,,,,,,
+Understanding neural networks through representation erasure,2016,Arxiv,https://arxiv.org/pdf/1612.08220.pdf,"Visualize: Figure 1 & 2.
+Description: "": Heatmap of word vector dimension importance I(d), computed using Eq. 1, for different training strategies and word vectors.""
+"" Heatmap of importance (computed using Eq. 1)
+of each layer for the POS task.""",,,,,,,,,,,,
+"Vqa-e: Explaining, elaborating, and enhancing your answers for visual questions",2018,ECCV,https://openaccess.thecvf.com/content_ECCV_2018/papers/Qing_Li_VQA-E_Explaining_Elaborating_ECCV_2018_paper.pdf,,,"Visualize: Figure2.
+Description: ""The statement and the most relevant caption are both parsed
+into constituency trees. These two trees are then aligned by the common node. The
+subtree including the common node in the statement is merged into the caption tree
+to obtain the explanation""",,,"Visualize: Figure 1 & 2 & 5 & 6.
+Description: ""VQA-E provides insightful information that can explain, elaborate or enhance
+predicted answers compared with the traditional VQA task"" 
+""An example of the pipeline to fuse the question (Q), the answer (A) and the
+relevant caption (C) into an explanation (E). """,,,,,,,
+Analysis methods in neural language processing: A survey,2019,TACL,https://arxiv.org/pdf/1812.08951.pdf,"Visualize: Figure1 & 2.
+Description: "" A heatmap visualizing neuron activations. In this case, the activations capture position
+in the sentence.""
+""A visualization of attention weights,
+showing soft alignment between source and target
+sentences in an NMT model.""","Description: "". Section 5 deals with the generation
+and use of adversarial examples to probe weaknesses of neural networks.""
+""It is referred to by various names, including “auxiliary
+prediction tasks” (Adi et al., 2017b), “diagnostic
+classifiers” (Veldhoen et al., 2016), and “probing
+tasks” (Conneau et al., 2018).""",,,,,,"Description: "" They contrasted such datasets with
+test corpora, “whose main advantage is that they
+reflect naturally occurring data.” This idea underlines much of the work on challenge sets and is
+echoed in more recent work""",,,,,
+Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph,2018,ACL,https://www.aclweb.org/anthology/P18-1208.pdf,,,"Visualize: Figure 5.
+Description: ""Intrinsically human communication is multimodal (heterogeneous), temporal and
+asynchronous; it consists of the language (words), visual (expressions), and acoustic
+(paralinguistic) modalities all in the form of asynchronous coordinated sequences.
+From a resource perspective, there is a genuine need for large scale datasets that allow for in-depth studies of multimodal language""",,,,,,,"Word Cloud.
+Visualize: Figure1.
+Description: ""The diversity of topics of videos in CMUMOSEI, displayed as a word cloud. Larger words indicate more videos from that topic.""",,,
+Interpreting recurrent and attention-based neural models: a case study on natural language inference,2018,EMNLP,https://arxiv.org/pdf/1808.03894.pdf,"Visualize: Figure1 & 2 & 5.
+Description: ""we propose to interpret the intermediate layers of NLI models by visualizing the saliency of attention and LSTM gating signals.""",,,,,,,,,,,,
+Interpretable neural predictions with differentiable binary variables,2019,ACL,https://www.aclweb.org/anthology/P19-1284v1.pdf,"Visualize: Figure1 & 6.
+Description: "" Rationale extraction for a beer review.""
+""Example of HardKuma attention between a
+premise (rows) and hypothesis (columns) in SNLI""",,,,,,,,,,,,
+Deconfounded lexicon induction for interpretable social science,2018,NAACL,https://www.aclweb.org/anthology/N18-1146.pdf,"Visualize: Table 1 & 2.
+Description: ""The ten highest-scoring words in lexicons generated by Adversarial + ATTN (A+ATTN), Regression
+(R), and Log-Odds Ratio (OR).""",,,,,,,,,,,,
+Saliency-driven word alignment interpretation for neural machine translation,2019,ACL,https://www.aclweb.org/anthology/W19-5201.pdf,"Visualize: Figure1 & 2 & 3.
+Description: "" Comparison of our saliency-based word
+alignment interpretation of convolutional NMT model
+with reference and attention interpretation""",,,,,,,,,,,,
+Explaining Simple Natural Language Inference,2019,ACL,https://www.aclweb.org/anthology/W19-4016.pdf,,,,,,"Description: ""Particularly, we discuss the benefits of justifications of the annotation
+decisions.""",,,,,,,
+Modeling Paths for Explainable Knowledge Base Completion ,2019,ACL,https://www.aclweb.org/anthology/W19-4816.pdf,,,"Visualize: Table4.
+Description: "" Examples of triple–path pairs, with entities in boldface, and simplified freebase relations. Incorrect
+triples/paths marked with ∗, and point of corruption marked.""",,,,,,,,,,
+Guiding the Flowing of Semantics: Interpretable Video Captioning via POS Tag,2019,EMNLP,https://pdfs.semanticscholar.org/7ad5/4b109a09925c5d8a55626b3221cbcdc1b019.pdf?_ga=2.86329368.1462757726.1607192920-2086044498.1602862197,,,,,,,"Visualize: Figure 1 & 4 & 5.
+Description: ""Visualization of the sampled video frames, the neuron activations associated with the POS tags, the weights of the sentinel gate, the generated captions, and the real POS tags of the captions.""",,,,,,
+DTCA: Decision Tree-based Co-Attention Networks for Explainable Claim Verification,2020,ACL,https://arxiv.org/pdf/2004.13455.pdf,"Visualize: Figure4.
+Description: ""The visualization of a sample (labeled false) in PHEME by DTCA, where the captured evidence (red arrows) and the specific values of decision conditions (blue) are presented by DTE, and the attention of different words (red shades) is obtained by CaSa.""",,"Visualize: Figure 2 & 4.
+Description: ""Overview of DTE. DTE consists of two parts: tree comment network (the left) and decision tree model (the right), which is used to evaluate the credibility of each node in the tree comment network for discovering evidence.""",,,,,,,,,,
+"Learning Interpretable Relationships between Entities, Relations and Concepts via Bayesian Structure Learning on Open Domain Facts",2020,ACL,https://www.aclweb.org/anthology/2020.acl-main.717.pdf,,,"Description: ""we propose the task of learning interpretable relationships from open domain facts to enrich and refine concept graphs. The Bayesian network structures are learned from open domain facts as the interpretable relationships between relations of facts and concepts of entities.""",,,,"Description: ""we propose the task of learning interpretable relationships from open domain facts to enrich and refine concept graphs. The Bayesian network structures are learned from open domain facts as the interpretable relationships between relations of facts and concepts of entities.""",,,,,,
+Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder,2020,ACL,https://www.aclweb.org/anthology/2020.acl-srw.23.pdf,,,,,"Visualize: Figure1. Table3.
+Description: ""An example of an event extraction rule in
+the Odin language that extracts phosphorylation events
+driven by a nominal trigger (“phosphorylation”)""
+"" Examples of mistakes in the decoded rules. The first column shows hand-written rules, while the second shows the rules decoded by our approach from sentences where the corresponding hand-written rules matched.""",,,,,,,,
+Natural Language Rationales with Full-Stack Visual Reasoning: From Pixels to Semantic Frames to Commonsense Graphs,2020,EMNLP,https://arxiv.org/pdf/2010.07526.pdf,,,,,,"Visualize: Figure4 & 1.
+Description: ""An illustrative example showing that explaining higher-level conceptual reasoning cannot be well conveyed only through the attribution of raw input features (individual pixels or words); we need natural language.""",,,,,,,
+GEval: Tool for Debugging NLP Datasets and Models,2019,BlackboxNLP,https://www.aclweb.org/anthology/W19-4826.pdf,"Visualize: Figure1.
+Description: ""Text with highlighted words.""",,,,,,,,,,,"Precition Confidence
+Visualize: Figure1.
+Description: ""LIME visualization of influence of tokens on final results.""",
+Anchors: High-Precision Model-Agnostic Explanations,2018,AAAI,https://homes.cs.washington.edu/~marcotcr/aaai18.pdf,,,,,"Visualize: Figure1 & 2 & 3.
+Description: ""We introduce a novel model-agnostic system that explains the behavior of complex models with high-precision rules called
+anchors, representing local, “sufficient” conditions for predictions.""",,,,,,,,
+Improving Abstractive Document Summarization with Salient Information Modeling,2019,ACL,https://www.aclweb.org/anthology/P19-1205.pdf,"Visualize: Table1 & 3.
+Description: "" Example of a document and its corresponding reference summary. We consider the reference summary contains all salient information and mark the
+words or phrases appearing in the document in [red].""",,,,,,,,,,,,
+Educe: Explaining model decisions through unsupervised concepts extraction,2019,Arxiv,https://arxiv.org/pdf/1905.11852.pdf,,,,,,,"Visualize: Figure1 & 3.
+Description: "" Interpretation of EDUCE prediction through concept analysis.""",,,,,,
+How Important is a Neuron,2019,ICLR,https://arxiv.org/pdf/1805.12233.pdf,"Visualize: Figure 4 & 5.
+Description: “Sentences with high conductance for filters that have high conductance for the phrase “not good”. These filters capture negation, diminishing, and show some stray errors”",,,,,,,,,,,,
+Understanding Convolutional Neural Networks for Text Classification,2018,EMNLP,https://arxiv.org/pdf/1809.08037.pdf,"Visualize: Table 4, Figure3.
+Description: "" Top-scoring ngrams from one filter from a
+model trained on the Elec dataset, and their accompanying lowest-scoring negative ngrams. We selected a hamming distance of 1 word. Bold ngrams are Case 2
+negative ngrams.""",,,,,,,,,,,,
+Beyond Word Importance: Contextual Decomposition to Extract Interactions from LSTMs ,2018,ICLR,https://openreview.net/pdf?id=rkRwGg-0Z,"Visualize: Table 1 & 2.
+Description: ""Heat maps for portion of yelp review with different attribution techniques. Only CD
+captures that ”favorite” is positive.""",,,,,,,,,,,,
+Automatic rule extraction from long short term memory networks,2017,ICLR,https://arxiv.org/pdf/1702.02540.pdf,"Visualize: Table 5 & 6.
+Description: "" Examples from Stanford sentiment treebank which are correctly labelled by our LSTM and
+incorrectly labelled by our rules-based classifier. The matched pattern is highlighted""",,,,,,,,,,,,
+Identifying and Controlling Important Neurons in Neural Machine Translation,2019,ICLR,https://arxiv.org/pdf/1811.01157.pdf,"Visualize: Table 3.
+Description: ""The next figure visualizes the most predictive neuron in an English-Spanish model. It activates positively (red) inside parentheses and negatively (blue) outside. Similar neurons were found in RNN language models (Karpathy et al., 2015). Next we consider more complicated linguistic properties.""",,,,,,,,,,,,
+What is one grain of sand in the desert? analyzing individual neurons in deep nlp models,2019,AAAI,https://arxiv.org/pdf/1812.09355.pdf,"Visualize: Figure 3.
+Description: Activations of top neurons for specific properties",,,,,,,,,,,,
+Latent alignment and variational attention,2018,NeuIPS,https://arxiv.org/pdf/1807.03756.pdf,"Visualize: Figure1 & 3.
+Description: ""Sketch of variational attention applied to
+machine translation. Two alignment distributions are
+shown, the blue prior p, and the red variational posterior
+q taking into account future observations. """,,,,,,,,,,,,
+Visualizing and Understanding Neural Machine Translation,2018,ACL,https://www.aclweb.org/anthology/P17-1106.pdf,"Visualize: Figure 4, 5, 6, 7, 8, 9, 10, 11.
+Description: ""we propose to use layer-wise relevance propagation
+(LRP) to compute the contribution of each contextual word to arbitrary hidden states in the attention-based encoderdecoder framework. """,,,,,,,,,,,,
+Learning Corresponded Rationales for Text Matching,2019,ICLR,https://openreview.net/pdf?id=rklQas09tm,"Visualize: Figure1 & 3.
+Description: "" Examples of the corresponded rationales for QA. Words highlighted in the same color
+from the question and a passage is a paired rationale. “Galileo Galilei” is the correct answer since
+two facts from the question are matched in its passage. On the other hand, the passage of “Isaac
+Newton” does not cover the second fact, which makes it a wrong answer.""",,,,,,,,,,,,
+A causal framework for explaining the predictions of black-box sequence-to-sequence models,2017,EMNLP,https://arxiv.org/pdf/1707.01943.pdf,"Visualize: Figure 3 & 4 & 7.
+Description: ""Explanations for the predictions of three
+Black-Box translators: Azure (top), NMT (middle) and human (bottom). Note that the rows and
+columns of the heatmaps are permuted to show explanation chunks (clusters).""",,"Visualize: Figure 8 & 6 & 3 & 4.
+Description: ""Explanations for biased translations of similar gender-neutral English sentences into French
+generated with Azure’s MT service. The first two require gender declination in the target (French) language, while the third one, in plural, does not. The dependencies in the first two shed light on the cause of the biased selection of gender in the output sentence.""",,,,,,,,,,
+Rationalizing Neural Predictions,2016,EMNLP,https://people.csail.mit.edu/taolei/papers/emnlp16_rationale.pdf,"Visualize: Figure 1 & 3 & 7.
+Description: ""An example of a review with ranking in two categories. The rationale for Look prediction is shown in bold.""
+""Examples of extracted rationales indicating the sentiments of various aspects. """,,,,,,,,,,,,
+"Show, attend and tell: Neural image caption generation with visual attention",2015,ICML,https://arxiv.org/pdf/1502.03044.pdf,"Visualize: Figure 2 & 3 & 5.
+Description: ""Attention over time. As the model generates each word, its attention changes to reflect the relevant parts of the image. “soft” (top row) vs “hard” (bottom row) attention. (Note that both models generated the same captions in this example.)""
+""Examples of mistakes where we can use attention to gain intuition into what the model saw.""",,,,,,,,,,,,
+""" Why should I trust you?"" Explaining the predictions of any classifier",2016,KDD,https://arxiv.org/pdf/1602.04938.pdf,"Visualize: Figure 2.
+Description: ""Explaining individual predictions of competing classifiers trying to determine if a document
+is about “Christianity” or “Atheism”. The bar chart
+represents the importance given to the most relevant words, also highlighted in the text. Color indicates which class the word contributes to (green for
+“Christianity”, magenta for “Atheism”).""",,,,,,,,,,,,
+Visualisation and'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure,2018,Journal of Artificial Intelligence Research,https://arxiv.org/pdf/1711.10203.pdf,"Visualize: Figure 11.
+Description: "" Hidden layer activations of a trained GRU network while processing different sequences.
+The input labels, along with the mode (addition/subtraction) at every point in time are printed left of
+the activation values.""","Description: ""To test whether our trained networks are following either the cumulative or recursive strategy, we
+train diagnostic classifiers to predict the sequences of intermediate results of both these strategies, as
+well as the variable mode used by the cumulative strategy to determine whether the next number
+should be added or subtracted. As the diagnostic model should merely read out whether certain
+information is present in the hidden representations rather than perform complex computations itself,
+we use a simple linear model as diagnostic classifier.""","Visualize: Figure 4 & 5.
+Description: ""A TreeRNN to compute the meaning of the sentence ( 5 - ( 2 + 3 ) ). (b) Training setup of the TreeRNN. A comparison layer, on top of two TreeRNNs, is trained to predict whether
+left expression is smaller than, equal to or larger than the right one.""",,,,,,,,,,
+Fine-grained analysis of sentence embeddings using auxiliary prediction tasks,2017,ICLR,https://arxiv.org/pdf/1608.04207.pdf,,"Description: ""We propose a framework that facilitates better understanding of the encoded representations. We define prediction tasks around isolated aspects of sentence structure (namely sentence length, word content, and word order), and score representations by the ability to train a classifier to solve each prediction task when
+using the representation as input""",,,,,,,,,,,
+What do Neural Machine Translation Models Learn about Morphology?,2017,ACL,https://www.aclweb.org/anthology/P17-1080.pdf,,"Description: ""we analyze the representations learned by neural MT models at various levels of granularity and empirically
+evaluate the quality of the representations
+for learning morphology through extrinsic
+part-of-speech and morphological tagging
+tasks. """,,,,,,,,,,,
+Probing for semantic evidence of composition by means of simple classification tasks,2016,Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for NLP,https://www.aclweb.org/anthology/W16-2524.pdf,,"Description: ""We propose a diagnostic method for probing specific information captured in vector
+representations of sentence meaning, via
+simple classification tasks with strategically constructed sentence sets""",,,,,,,,,,,
+Under the Hood: Using Diagnostic Classifiers to Investigate and Improve how Language Models Track Agreement Information,2018,BlackboxNLP,https://arxiv.org/pdf/1808.08079.pdf,,"Description: ""Visualisation and'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure""",,,,,,,,,,,
+What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties,2018,ACL,https://www.aclweb.org/anthology/P18-1198.pdf,,"Description: ""We introduce here 10 probing
+tasks designed to capture simple linguistic features of sentences, and we use them
+to study embeddings generated by three
+different encoders trained in eight distinct
+ways, uncovering intriguing properties of
+both encoders and training methods.""",,,,,,,,,,,
+Linguistic Knowledge and Transferability of Contextual Representations,2019,NAACL,https://arxiv.org/pdf/1903.08855.pdf,,"Visualize: Figure3.
+Description: 
+"" A visualization of layerwise patterns in task
+performance. Each column represents a probing task, and each row represents a contextualizer layer.""
+""To shed light on the linguistic knowledge they capture, we study the representations produced by several recent pretrained contextualizers (variants
+of ELMo, the OpenAI transformer language
+model, and BERT) with a suite of seventeen
+diverse probing tasks""",,,,,,,,,,,
+Does String-Based Neural MT Learn Source Syntax?,2016,EMNLP,https://www.aclweb.org/anthology/D16-1159.pdf,,,"Visualize: Figure 1 & 2 & 6.
+Description: ""We extract the whole constituency tree of
+source sentence from the NMT encoding vectors using a retrained linearized-tree decoder. A deep analysis on these parse trees indicates that much syntactic information is learned, while
+various types of syntactic information are still
+missing.""",,,,,,,,,,
+What do you learn from context? Probing for sentence structure in contextualized word representations,2019,ICLR,https://arxiv.org/pdf/1905.06316.pdf,,"Description: ""Building on recent token-level probing
+work, we introduce a novel edge probing task design and construct a broad suite
+of sub-sentence tasks derived from the traditional structured NLP pipeline. We
+probe word-level contextual representations from four recent models and investigate how they encode sentence structure across a range of syntactic, semantic,
+local, and long-range phenomena. """,,,,,,,,,,,
+Generating Fact Checking Explanations,2020,ACL,https://arxiv.org/pdf/2004.05773.pdf,"Visualize: Table 1 & 4.
+Description: "" Example instance from the LIAR-PLUS
+dataset, with oracle sentences for generating the justification highlighted.""",,,,,,,,,,,,
+e-snli: Natural language inference with natural language explanations,2018,NeuIPS,https://arxiv.org/pdf/1812.01193.pdf,"Visualize: Figure 1.
+Description: "": Examples from e-SNLI. Annotators were given the premise, hypothesis, and label. They
+highlighted the words that they considered essential for the label and provided the explanations.""",,,,,"Visualize: Figure 1.
+Description: "": Examples from e-SNLI. Annotators were given the premise, hypothesis, and label. They
+highlighted the words that they considered essential for the label and provided the explanations.""",,,,,,,
+How do Decisions Emerge across Layers in Neural Models? Interpretation with Differentiable Masking,2020,EMNLP,https://arxiv.org/pdf/2004.14992.pdf,"Visualize: Figure 2.
+Description: ""DIFFMASK learns to maskout subsets of the input while maintaining differentiability. The decision to include or disregard an input token is made with a simple model based on intermediate hidden layers of the analyzed model. """,,,,,,,,,,,,
+KERMIT: Complementing Transformer Architectures with Encoders of Explicit Syntactic Interpretations,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.18.pdf,"Visualize: Figure 3.
+Description: ""KERMITviz vs. BERTviz: Comparing interpretations over KERMIT and over BERT on two sample
+sentences of Yelp Review where the word but is correlated or not with the final polarity.""",,"Visualize: Figure 3.
+Description: ""KERMITviz vs. BERTviz: Comparing interpretations over KERMIT and over BERT on two sample
+sentences of Yelp Review where the word but is correlated or not with the final polarity.""",,,,,,,,,,
+Towards Interpretable Reasoning over Paragraph Effects in Situation,2020,EMNLP,https://arxiv.org/pdf/2010.01272.pdf,"Visualize: Table 1 & 4.
+Description: ""An example from the ROPES dataset. Effect
+property tokens are highlighted in blue, cause property
+tokens in orange, and world tokens in green.""",,,,,,,,,,,,
+Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis,2020,EMNLP,https://arxiv.org/pdf/2004.14198.pdf,,,,,,,"Visualize: Figure 1 & 3.
+Description: ""Overview of Multimodal Routing, which contains encoding, routing, and prediction stages. We consider only two input modalities in this example. The encoding stage computes unimodal and bimodal explanatory features with the inputs from different modalities. The routing stage iteratively performs concepts update and routing adjustment. The prediction stage decodes the concepts to the model’s prediction.""",,,,,,
+Interpretation of NLP models through input marginalization,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.255.pdf,"Visualize: Figure 2 & 3 & 4 & 5.
+Description: ""Interpretation results of the proposed method. “+” and “-” in (a) denote the positive and negative classes
+of the depicted sentences. “pre” and “hypo” in (b) denote premise and hypothesis of SNLI, respectively. Red and
+blue colors denote positive and negative contributions to the denoted classes, respectively.""",,,,,,,,,,,,
+PROVER: Proof Generation for Interpretable Reasoning over Rules,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.9.pdf,,,,,"Visualize: Figure 2 & 3.
+Description: ""Diagram showing two rule-bases with rules, facts, questions, answers and proofs. PROVER answers all
+the questions correctly and also generates all the corresponding proofs accurately in the above scenarios.""",,,,,,,,
+Interpreting Open-Domain Modifiers: Decomposition of Wikipedia Categories into Disambiguated Property-Value Pairs,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.503.pdf,"Visualize: Figure 1, Table 5 & 6.
+Description: "" Overview of annotation of modifier constituents within Wikipedia categories based on Wikidata properties and values""",,,,,,,,,,,,
+COGS: A Compositional Generalization Challenge Based on Semantic Interpretation,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.731.pdf,,,"Visualize: Figure1 & 3.
+Description: "" (a) The meaning of a sentence (right) is compositionally built up from the meanings of its parts, in accordance with its structure (left). (b) Interpreting a
+familiar word in a structure it has not appeared in before""",,,,,,,,,,
+Learning Variational Word Masks to Improve the Interpretability of Neural Text Classifiers,2020,EMNLP,https://arxiv.org/pdf/2010.00667.pdf,"Visualize: Table 1 & 5.
+Description: ""Model A and B are two neural text classifiers
+with similar network architectures. They all make correct sentiment predictions on both texts (ex. 1: positive; ex. 2: negative). Two post-hoc explanation methods, LIME (Ribeiro et al., 2016) and SampleShapley
+(Kononenko et al., 2010), are used to explain the model
+predictions on example 1 and 2 respectively.""",,,,,,,,,"Word Cloud
+Visualize: Figure 3.
+Description: "" Word clouds of top 10 important words""",,,
+Interpretable Multi-dataset Evaluation for Named Entity Recognition,2020,EMNLP,https://arxiv.org/pdf/2011.06854.pdf,"Visualize: Figure 6.
+Description: ""The relative increase of the larger-context method
+on five datasets12 based on eight evaluation attributes.'",,"Spider diagram
+Visualize: Figure4.
+Description: "" Dataset biases characterized by measures ζ and ρ. We normalize ζ on each attribute by dividing the maximum ζ on six datasets, and ρ ∈ [0, 1].""",,,,,,,,,,
+F1 is Not Enough! Models and Evaluation Towards User-Centered Explainable Question Answering,2020,EMNLP,https://arxiv.org/pdf/2010.06283.pdf,,,,,,"Visualize: Figure1.
+Description: "" Example output of a representative XQA system (Yang et al., 2018) that would receive an answer-F1
+of 1 and an explanation-F1 of 0.5 although the explanation provides no value to the user since the actual answer evidence (shown in cloud) is not included in the explanation (asterisks mark ground truth explanation).""",,,,,,,
+Explainable Clinical Decision Support from Text,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.115.pdf,"Visualize: Figure 4.
+Description: ""We propose a hierarchical CNNtransformer model with explicit attention as
+an interpretable, multi-task clinical language model,""
+"": Example attention distribution over sentences in one patient document.""",,,,,,,,,,,,
+Learning Explainable Linguistic Expressions with Neural Inductive Logic Programming for Sentence Classification,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.345.pdf,,,,,"Visualize: Figure 1 & 3 & 9 & 10.
+Description: "" The models are in the form of rules expressed in
+first-order logic, a dialect with well-defined,
+human-understandable semantics. More precisely, RuleNN learns linguistic expressions
+(LE) built on top of predicates extracted using shallow natural language understanding.""
+"" Generating (c) facts and predicates from (a) shallow semantic parsing and (b) dictionaries""",,,,,,,,
+Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering,2020,EMNLP,https://arxiv.org/pdf/2010.03274.pdf,,,,,"Visualize: Figure 1 & 2 & 3 & 4.
+Description: ""Reasoning Chain""
+""Our datasets contain annotated (valid and invalid) reasoning chains in support of an answer, allowing explanation classifier models to be trained and applied. We also find that using a variabilized version of the chains improves the models’ robustness.""",,,,,,,,
+Explainable Automated Fact-Checking for Public Health Claims,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.623.pdf,,,,,,"Visualize: Table1, Figure 2 & 3.
+Description: ""Example of model-generated explanations as
+compared to the gold standard from our fact-checking
+dataset.""",,,,,,,
+An Information Bottleneck Approach for Controlling Conciseness in Rationale Extraction,2020,EMNLP,https://arxiv.org/pdf/2005.00652.pdf,"Visualize: Figure1 & Table3.
+Description: ""Our Information Bottleneck-based approach
+extracts concise rationales that are minimally informative about the original input, and maximally informative about the label through fine-grained control of sparsity in the bottleneck""",,,,,,,,,,,,
+Cold-Start and Interpretability: Turning Regular Expressions into Trainable Recurrent Neural Networks,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.258.pdf,,,,,"Visualize: Table 1, Figure 4.
+Description: ""RE for matching sentences asking about distance, and a matched sentence. ""
+""Part of an original RE and a reconstructed RE corresponding to label [aircraft].""",,,,,,,,
+Learning concept embeddings for dataless classification via efficient bag-of-concepts densification,2019,Knowledge and Information Systems,https://arxiv.org/pdf/1702.03342.pdf,,,,,,,"Visualize: Table1 & 10.
+Description: ""Top 3 concepts generated using ESA for two
+20-newsgroups categories (Hockey and Guns) along with top 3 concepts of sample instances. Using exact match similarity scoring (as in ESA) result in low
+scores between similar instance and category concept vectors. When using concept embeddings (our models), we obtain relatively higher and more representative
+similarities.""",,,,,,
+Imparting Interpretability to Word Embeddings while Preserving Semantic Structure,2018,"IEEE/ACM Transactions on Audio, Speech, and Language Processing",https://arxiv.org/pdf/1807.07279.pdf,,,,,,,"Visualize: Table 1 & 3 & 4.
+Description: ""We introduce an additive
+modification to the objective function of the embedding learning
+algorithm that encourages the embedding vectors of words that
+are semantically related to a predefined concept to take larger
+values along a specified dimension, while leaving the original
+semantic learning mechanism mostly unaffected. In other words,
+we align words that are already determined to be related, along
+predefined concepts. """,,,,,,
+GLUCOSE: GeneraLized and COntextualized Story Explanations,2020,EMNLP,https://arxiv.org/pdf/2009.07758.pdf,,,,,"Visualize: Table 1.
+Description: ""To construct GLUCOSE,
+we drew on cognitive psychology to identify
+ten dimensions of causal explanation, focusing on events, states, motivations, and emotions. Each GLUCOSE entry includes a storyspecific causal statement paired with an inference rule generalized from the statement.""",,,,,,,,
+Interpretable Entity Representations through Large-Scale Typing,2020,EMNLP,https://arxiv.org/pdf/2005.00147.pdf,,,,,,,"Visualize: Figure1.
+Description: ""Our representations are vectors whose values correspond to posterior probabilities over finegrained entity types, indicating the confidence
+of a typing model’s decision that the entity
+belongs to the corresponding type.""
+""Interpretable entity representations. (1) A mention and its context are fed into (2) an embedding model.
+(3) An entity embedding vector consists of probabilities for corresponding types""",,,,,,
+Global model interpretation via recursive partitioning,2018,IEEE 4th International Conference on Data Science and Systems (HPCC/SmartCity/DSS),https://arxiv.org/pdf/1802.04253.pdf,,,"Visualize: Figure 1 & 3.
+Description: ""Work flow of global model interpretation"".
+""Interaction trees learned for scene categories ”living room”, ”kitchen”, ”bedroom”, and ”bathroom”.""",,,,,,,,,,
+Understanding Neural Abstractive Summarization Models via Uncertainty,2020,EMNLP,https://arxiv.org/pdf/2010.07882.pdf,,,,,,,,,,,,"Uncertainty / Entropy
+Visualize: Figure 2 & 3.
+Description: "" In this
+work, we analyze summarization decoders in
+both blackbox and whitebox ways by studying
+on the entropy, or uncertainty, of the model’s
+token-level predictions.""",
+Quick and (not so) Dirty: Unsupervised Selection of Justification Sentences for Multi-hop Question Answering,2020,EMNLP,https://www.aclweb.org/anthology/D19-1260.pdf,"Visualize: Figure1 & 2, Table1.
+Description: "" A multiple-choice question from the ARC dataset
+with the correct answer in bold, followed by justification sentences selected by our approach (ROCC) vs. sentences selected by a strong IR baseline (BM25). ROCC justification
+sentences fully cover the five key terms in the question (shown
+in italic),""",,,,,,,,,,,,
+Probing Emergent Semantics in Predictive Agents via Question Answering,2020,Arxiv,https://arxiv.org/pdf/2006.01016.pdf,,"Description: ""we propose the question-conditional probing of agent
+internal states as a means to study and quantify the knowledge about objects, properties, relations and quantities encoded in the internal representations of neural-networkbased agents. """,,,,,,,,,,,
+Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning,2019,NeuIPS,https://arxiv.org/pdf/1905.11666.pdf,"Visualize: Figure 2 & 4.
+Description: ""Attention maps for the question ""Are there more green blocks than shiny cubes?"" and its
+accompanying image, the same data used to show attention logit map in Figure 2.""
+"" (a) and (b) shows the actual softmax-ed textual and visual attention map which used to acquire the control vector and
+the information vector in MAC and DAFT MAC, respectively.""",,,,,,,,,,,,
+Leakage-Adjusted Simulatability: Can Models Generate Non-Trivial Explanations of Their Behavior in Natural Language?,2020,EMNLP Findings,https://arxiv.org/pdf/2010.04119.pdf,,,,,,"Visualize: Figure 2 & 4.
+Description: "": Inputs and outputs for the T5 Multi-task framework. In the reasoning mode, explanations are not conditioned on the model’s prediction, whereas in the rationalizing mode they are dependent on the model output""",,,,,,,
+Compositional Explanations of Neurons,2020,NeuIPS,https://arxiv.org/pdf/2006.14032.pdf,,,,,,,"Visualize: Figure 1 & 2 & 4 & 5 & 8.
+Description: ""We describe a procedure for explaining neurons in deep representations by identifying compositional logical concepts that closely approximate neuron behavior.""",,,,,,
+A Survey of the State of Explainable AI for Natural Language Processing,2020,AACL-IJCNLP,https://arxiv.org/pdf/2010.00711.pdf,"Visualize: Figure1 
+Description: Saliancy heatmap / Saliancy highlighting.",,,,"Visualize: Figure1.
+Description: ""(c) Raw declarative rules; (d) raw declarative program.""","Visualize: Figure1 & 2.
+Description: ""(e) Raw examples"".",,,,,,,
+Self-Explaining Structures Improve NLP Models,2020,Arxiv,https://arxiv.org/pdf/2012.01786.pdf,"Visualize: Table 5 & 6 & 7.
+Description: "": Examples of correctly classified texts and the corresponding extracted text spans by different models.""",,,,,,,,,,,,
+Quint: Interpretable question answering over knowledge bases.,2017,EMNLP,https://www.aclweb.org/anthology/D17-2011.pdf,,,"Visualize: Figure 8 & 9 & 10.
+Description: ""When QUINT answers a question, it visualizes
+the complete derivation sequence from the
+natural language utterance to the final answer. The derivation provides an explanation of how the syntactic structure of the
+question was used to derive the structure
+of a SPARQL query, and how the phrases
+in the question were used to instantiate different parts of the query""",,,,,,,,,,
+Using regional saliency for speech emotion recognition.,2017,"ICASSP (IEEE International Conference on Acous- tics, Speech and Signal Processing)",https://web.eecs.umich.edu/~emilykmp/EmilyPapers/2017_Aldeneh_ICASSP.pdf,"Description: ""we show that convolutional neural networks
+can be directly applied to temporal low-level acoustic features to identify emotionally salient regions without the need for defining or applying utterance-level statistics.""",,,,,,,,,,,,
+MathQA: Towards interpretable math word problem solving with operation-based formalisms. ,2019,NAACL,https://www.aclweb.org/anthology/N19-1245.pdf,,,,,"Visualize: Figure1 & 2 & 5.
+Description: ""We introduce a large-scale dataset of math word problems and an interpretable neural
+math problem solver that learns to map problems to operation programs.""",,,,,,,,
+Auditing deep learning processes through kernel-based explanatory models.,2019,EMNLP-IJCNLP,https://www.aclweb.org/anthology/D19-1415.pdf,,,,,,,,"Visualize: Table1.
+Description: ""Such connections then guide
+the construction of argumentations on the network’s inferences, i.e., explanations based on real examples that are semantically related to
+the input. """,,,,,
+"Train, Sort, Explain: Learning to Diagnose Translation Models",2019,NAACL,https://www.aclweb.org/anthology/N19-4006.pdf,"Visualize: Figure 2 & 3.
+Description: "" A heatmap of contribution scores in word
+vector space over a sequence of tokens.""",,,,,,,,,,,,
+HEIDL: Learning Linguistic Expressions with Deep Learning and Human-in-the-Loop,2019,ACL,https://www.aclweb.org/anthology/P19-3023.pdf,,,,,"Visualize: Figure2.
+Description: ""We demonstrate HEIDL, a prototype HITLML system that exposes the machine-learned
+model through high-level, explainable linguistic expressions formed of predicates representing semantic structure of text.""",,,"Visualize: Figure1.
+Description: ""examples for each expression""",,,,,
+Learning Explanations from Language Data,2018,BlackboxNLP,https://arxiv.org/pdf/1808.04127.pdf,"Visualize: Figure 1 & 2.
+Description: ""Contributions to positive classification.""",,,,,,,,,,,,
+LISA: Explaining Recurrent Neural Network Judgments via Layer-wIse Semantic Accumulation and Example to Pattern Transformation,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5418.pdf,"Description: ""we analyze and interpret the cumulative nature of RNN via a proposed technique named as Layer-wIse-Semantic-Accumulation (LISA)
+for explaining decisions and detecting the
+most likely (i.e., saliency) patterns that the network relies on while decision making.""",,,"Visualize: Figure3.
+Description: "" t-SNE Visualization for training set""",,,,,,,,,
+Detecting and Explaining Causes From Text For a Time Series Event,2017,EMNLP,https://arxiv.org/pdf/1707.08852.pdf,,,"Visualize: Table 1 & 2.
+Description: "" The generation of the sequence of causal entities requires a commonsense causative knowledge base with
+efficient reasoning. To ensure good interpretability and appropriate lexical usage
+we combine symbolic and neural representations, using a neural reasoning algorithm trained on commonsense causal tuples to predict the next cause step. """,,,,,,,,,,
+Interpreting neural networks to improve politeness comprehension.,2016,EMNLP,https://www.aclweb.org/anthology/D16-1216.pdf,"Visualize: Figure1.
+Description: ""we present several network visualizations based on activation clusters, first derivative saliency, and embedding space transformations, helping us automatically identify several subtle linguistics
+markers of politeness theories.""",,,"Visualize: Figure2.
+Description: ""we present several network visualizations based on activation clusters, first derivative saliency, and embedding space transformations, helping us automatically identify several subtle linguistics
+markers of politeness theories.""",,,,,,,,,
+Explaining non-linear Classifier Decisions within Kernel-based Deep Architectures,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5403.pdf,,,,,,,,"Description: 
+"" each decision provided by a KDA can be linked to
+real examples, linguistically related to the input instance: these can be used to motivate the
+network output.""
+""An explanatory model is then a function
+M(e,Lk) which maps an explanation e, a sub set
+Lk of the active and consistent landmarks L for e
+into a sentence f in natural language. Of course
+several definitions for M(e,Lk) are possible""",,,,,
+EditNTS: An Neural Programmer-Interpreter Model for Sentence Simplification through Explicit Editing,2019,ACL,https://www.aclweb.org/anthology/P19-1331.pdf,"Visualize: Table1.
+Description: ""Example outputs of EditNTS taken from the validation set of three text simplification benchmarks. Given
+a complex source sentence, our trained model predicts a sequence of edit tokens (EditNTS programs) that executes
+into a sequence of simplified tokens (EditNTS output).""",,,,"Visualize: Table1.
+Description: ""We present the first sentence simplification
+model that learns explicit edit operations
+(ADD, DELETE, and KEEP) via a neural
+programmer-interpreter approach.""",,,,,,,,
+Predicting and interpreting embeddings for out of vocabulary words in downstream tasks,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5439.pdf,"Description: ""Our model also incorporates an attention
+mechanism indicating the focus allocated to
+the left context words, the right context words
+or the word’s characters, hence making the
+prediction more interpretable""",,,,,,,,,,,,
+Detecting Linguistic Characteristics of Alzheimer’s Dementia by Interpreting Neural Models,2018,NAACL,https://www.aclweb.org/anthology/N18-2110.pdf,"Visualize: Figure3.
+Description: ""More importantly, we next interpret what these neural models
+have learned about the linguistic characteristics of AD patients, via analysis based on activation clustering and first-derivative saliency
+techniques.""",,,"Description: ""More importantly,
+we next interpret what these neural models
+have learned about the linguistic characteristics of AD patients, via analysis based on activation clustering and first-derivative saliency
+techniques.""",,,,,,,,,
+Unsupervised Token-wise Alignment to Improve Interpretation of Encoder-Decoder Models,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5410.pdf,"Visualize: Figure 2 &3 .
+Description: ""Visualization of models. The x-axis and
+y-axis correspond to the source and the target sequence respectively. Tokens in the brackets are
+source-side tokens aligned at that time step.""",,,,,,,,,,,,
+Human-grounded Evaluations of Explanation Methods for Text Classification,2019,EMNLP-IJCNLP,https://www.aclweb.org/anthology/D19-1523.pdf,"Visualize: Figure2, Table3.
+Description: ""Explanation: an ordered list of text fragments (words or n-grams) in
+the input text which are most relevant to a prediction. Explanations for and against the predicted
+class are called evidence and counter-evidence,
+respectively. (3) (Local) explanation method: a
+method producing an explanation for a model and
+an input text. (4)""",,,,,,,,,,,,
+CNM: An Interpretable Complex-valued Network for Matching,2019,NAACL,https://www.aclweb.org/anthology/N19-1420.pdf,"Visualize: Table 6 & 7 & 8.
+Description: ""The matching patterns for specific sentence pairs in TREC QA. The darker the color, the bigger the word weight is. [ and ] denotes the possible border of the current sliding windows.""",,,,,,,,,,,,
+"A Meaning-based English Math Word Problem Solver with Understanding, Reasoning and Explanation",2016,COLING,https://www.aclweb.org/anthology/C16-2032.pdf,,,,,"Visualize: Figure2 & 3.
+Description: ""Logic form and logic inference. The generated explanation
+ of a Sum operation tree and explanation text.""","Visualize: Figure3.
+Description: ""The generated explanation
+ of a Sum operation tree and explanation text"".",,,,,,,
+Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems,2017,ACL,https://www.aclweb.org/anthology/P17-1015.pdf,"Visualize: Figure4.
+Description: ""Illustration of the most likely latent program inferred by our algorithm to explain a held-out
+question-rationale pair""",,,,,"Visualize: Figure1.
+Description: ""To make this task
+more feasible, we solve these problems by
+generating answer rationales, sequences
+of natural language and human-readable
+mathematical expressions that derive the
+final answer through a series of small
+steps.""",,,,,,,
+Explainable Prediction of Medical Codes from Clinical Text,2018,NAACL,https://arxiv.org/pdf/1802.05695.pdf,"Visualize: Table1.
+Description: ""Our method aggregates information across the document using a convolutional neural network, and uses an attention mechanism to select the
+most relevant segments for each of the thousands of possible codes.""
+"" Presentation of example qualitative evaluations. In real evaluation, system names generating the 4-gram are not given.""",,,,,,,,,,,,
+"Unsupervised, Knowledge-Free, and Interpretable Word Sense Disambiguation",2017,EMNLP,https://www.aclweb.org/anthology/D17-2016.pdf,,,,,,,,"Visualize: Figure2.
+Description: ""The predicted sense is summarized with
+a hypernym and an image (D) and further represented with usage examples, semantically related words,
+and typical context clues.""",,,"Image:
+Visualize: Figure3.
+Description: "" All words disambiguation mode: results of disambiguation of all nouns in a sentence.""",,
+Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis,2014,EMNLP,https://www.aclweb.org/anthology/D14-1052.pdf,,,,,,,,"Visualize: Table 4.
+Description: ""Predicted sentiment for TED comments:
+yi is the actual sentiment, yˆi
+the predicted one, and
+ψˆi the estimated relevance of each sentence.""",,"Word Cloud
+Visualize: Figure5.
+Description: ""Top words based on Φ for predicting four emotions from comments on TED talks.""
+",,,
+Evaluating neural network explanation methods using hybrid documents and morphosyntactic agreement,2018,ACL,https://www.aclweb.org/anthology/P18-1032.pdf,"Visualize: Figure 1 & 2 & 3.
+Description: ""Top: sci.electronics post (not hybrid). Underlined: Manual relevance ground truth.
+Green: evidence for sci.electronics. Task method: CNN. Bottom: hybrid newsgroup post, classified
+talk.politics.mideast. Green: evidence for talk.politics.mideast. Underlined: talk.politics.mideast fragment. Task method: QGRU. Italics: OOV. Bold: rmax position. """,,,,,,,,,,,,
+Learning interpretable negation rules via weak supervision at document level: A reinforcement learning approach,2019,NAACL,https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/329832/2/N19-1038.pdf,,,,,"Description: "" our work presents
+the first approach that eliminates the need for
+word-level negation labels, replacing it instead with document-level sentiment annotations. For this, we present a novel strategy
+for learning fully interpretable negation rules
+via weak supervision: we apply reinforcement
+learning to find a policy that reconstructs negation rules from sentiment predictions at document level.""",,,,,,,,
+Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5415.pdf,"Visualize: Figure3.
+Description: "" This paper presents two methods for performance attribution: finding the degree to which an outcome can be attributed to parts of a text while
+controlling for potential confounders1.""",,,,,,,,,,,,
+Deconfounded Lexicon Induction for Interpretable Social Science,2018,NAACL,https://www.aclweb.org/anthology/N18-1146.pdf,,,,,,,"Visualize: Table 1 & 2;
+Description: ""We formalize this need as
+a new task: inducing a lexicon that is predictive of a set of target variables yet uncorrelated to a set of confounding variables.""
+""The ten highest-scoring words in lexicons generated by Deep Residualization + BOW (DR+BOW),
+Mutual Information (MI), Residialized Regression (RR), and regression (R).""",,,,,,
+Interpretable Question Answering on Knowledge Bases and Text,2019,ACL,https://arxiv.org/pdf/1906.10924.pdf,"Visualize: Table1.
+Description: "" We adapt post hoc explanation methods such as
+LIME and input perturbation (IP) and compare them with the self-explanatory attention
+mechanism of the model. For this purpose, we
+propose an automatic evaluation paradigm for
+explanation methods in the context of QA""",,,,,,,,,,,,
+Generating Token-Level Explanations for Natural Language Inference,2019,NAACL,https://arxiv.org/pdf/1904.10717.pdf,"Visualize: Figure1.
+Description: "": Example of token-level highlights from the eSNLI dataset (Camburu et al., 2018). Annotators were provided a premise and hypothesis and asked to highlight words considered essential to explain the label.""",,,,,,,,,,,,
+Iterative Recursive Attention Model for Interpretable Sequence Classification,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5427.pdf,"Visualize: Figure 4 & 6.
+Description: "" Visualization of attention across sentence
+words (horizontal) and T=3 time steps (vertical).
+The last T-1 columns contain the attention weights
+over the result of the previous attentive query.""",,,,,,,,,,,,
+Learning to Explain Entity Relationships in Knowledge Graphs,2015,ACL,https://www.aclweb.org/anthology/P15-1055.pdf,,,"Visualize: Table 5.
+Description: "": Results for relationship-dependent models. Similar relationships are grouped together.""",,,,,,,,,,
+Interpreting Neural Networks with Nearest Neighbors,2018,BlackboxNLP,https://www.aclweb.org/anthology/W18-5416.pdf,"Visualize: Table 2 & 3.
+Description: ""Comparison of interpretation approaches on SST test examples for the LSTM model. Blue
+indicates positive impact and red indicates negative impact. Our method (Conformity leave-one-out) has
+higher precision, rarely assigning importance to extraneous words such as “about” or “movie”.""",,,,,,,,,,,,
+An Interpretable Knowledge Transfer Model for Knowledge Base Completion,2017,ACL,https://www.aclweb.org/anthology/P17-1088.pdf,,,,,,,"Visualize: Figure 3 & 4.
+Description: ""we propose a knowledge embedding
+model which can discover shared hidden concepts,
+and design a learning algorithm to induce the interpretable sparse representation""",,,,,,
+An Interpretable Reasoning Network for Multi-Relation Question Answering,2018,COLING,https://www.aclweb.org/anthology/C18-1171.pdf,,,,,,,"Visualize: Figure 3.
+Description: ""The predicted relations at each hop. Each row represents a probability distribution over relations. Darker color indicates larger probability. The terminal relation is highlighted in red.""",,,,,,
+Exploiting Structure in Representation of Named Entities using Active Learning,2018,COLING,https://www.aclweb.org/anthology/C18-1058.pdf,,,,,"Visualize: Table 1 & 6.
+Description: ""entities have underlying structures, typically shared by entities of the same entity type, that can help reason over their name variations.""
+""We show that programs for mapping entity mentions to their structures can
+be automatically generated using human-comprehensible labels.""",,,,,,,,
+Localizing Moments in Video With Natural Language,2017,ICCV,https://openaccess.thecvf.com/content_ICCV_2017/papers/Hendricks_Localizing_Moments_in_ICCV_2017_paper.pdf,,,,,,"Visualize: Figure 3 & 5.
+Description: "" Example videos and annotations from our Distinct Describable Moments (DiDeMo) dataset. Annotators describe
+moments with varied language (e.g., “A cat walks over two boxes” and “An orange cat walks out of a box”).""",,,,,,,
+FIND: Human-in-the-Loop Debugging Deep Text Classifiers,2020,EMNLP,https://www.aclweb.org/anthology/2020.emnlp-main.24.pdf,,,,,,,,,,"Word Cloud
+Visualize: Figure 2 & 3 & 5.
+Description: ""A word cloud (or, literally, an n-gram cloud) of a feature from a CNN.""
+""Examples of word clouds of CNN features in
+ranks A, B, and C""",,,
+Invariant Rationalization,2020,ICML,https://arxiv.org/pdf/2003.09772.pdf,"Visualize: Figure 1 & 4.
+Description: ""An example beer review and possible rationales explaining why the score on the smell aspect is positive. ""
+""An example beer review and possible rationales explaining why the score on the smell aspect is positive. """,,,,,,,,,,,,
+Transformers as Soft Reasoners over Language,2020,IJCAI,https://arxiv.org/pdf/2002.05867.pdf,,,,,"Visualize: Figure 1 & 3 & 5 & 6.
+Description: ""Questions in our datasets involve reasoning with rules. The inputs to the model are the context (facts + rules) and a question. The output is the T/F answer to the question""","Visualize: Figure 1 & 3 & 5 & 6.
+Description: ""This paper investigates a modern approach
+to this problem where the facts and rules are provided as natural language sentences, thus bypassing
+a formal representation.""",,,,,,,
+Understanding black-box predictions via influence functions,2017,ICML,https://arxiv.org/pdf/1703.04730.pdf,,,,,,,,"Description: ""In this paper, we use influence functions — a classic technique from robust statistics — to trace a model’s prediction through the
+learning algorithm and back to its training data,
+thereby identifying training points most responsible for a given prediction. """,,,,,
+How Useful Are the Machine-Generated Interpretations to General Users? A Human Evaluation on Guessing the Incorrectly Predicted Labels,2020,HCOMP,https://arxiv.org/abs/2008.11721,"Visualize: Figure1, Figure2.
+Description: "" Examples of five types of errors in image classification. The visual interpretations are generated by three
+existing interpreters""",,,,,,,,,,,,
+Explainable Active Learning (XAL): An Empirical Study of How Local Explanations Impact Annotator Experience,2020,CSCW,https://arxiv.org/pdf/2001.09219.pdf,"Visualize: Figure1.
+Description: ""Our study explores how people naturally want to teach a model with a local-feature-importance visualization,
+a popular and generalizable form of explanation.""",,,,,,,,,,,,
+Dissonance Between Human and Machine Understanding,2019,CSCW,http://www.l3s.de/~gadiraju/publications/CSCW2019.pdf,,,,,,,,,,,,,
+"Toward Machine-Guided, Human-Initiated Explanatory Interactive Learning",2020,TAILOR workshop at ECAI ,https://arxiv.org/pdf/2007.10018.pdf,,,,"Decision Surface/Decesion Boundary:
+Visualize: Figure 1 & 2 & 4.
+Description: ""The decision surfaces of the classifier trained on the points selected by the
+strategies based on guided learning are shown in Figure 4. """,,,,,,,,,
+"Machine Guides, Human Supervises: Interactive Learning with Global Explanations",2020,Arxiv,https://arxiv.org/pdf/2009.09723.pdf,,,,"Decision Surface/Decesion Boundary:
+Visualize: Figure 1.
+Description: ""Left: uncertainty-based AL queries points (circled in yellow) around known red clusters and ignores the unknown ones, even after 140 iterations.""",,,,,,,,,
