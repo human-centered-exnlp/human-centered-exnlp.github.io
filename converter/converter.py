@@ -41,7 +41,10 @@ def csv2html_converter(table, df, fileout, dirout):
         for col in range(4, len(row)):
             if row[col] != 0:
                 write_html(row[col], os.path.join(dirout, f"{r+1}-{col}.html"))
-                table += "    <td>{}<a class='page-link' href='/assets/files/form_quotes/{}-{}.html'>Quote</a>".format('{% include _icons/users.html %}', r+1, col)
+                # table += "    <td>{}<a class='page-link' href='/assets/files/form_quotes/{}-{}.html'>Quote</a>".format('{% include _icons/users.html %}', r+1, col)
+                table += "    <td>{}<a class='page-link' href='/assets/files/form_quotes/{}-{}.html'>Quote</a></td>\n".format('{% include _icons/users.html %}', r+1, col)
+            else:
+                table += "    <td>-</td>"
         table += "</tbody>"
         table += "  </tr>\n"
         
@@ -85,8 +88,9 @@ if __name__ == "__main__":
         "    myWindow.document.write('<p>'+myWindow.name+'</p>');\n"
         "  }\n"
         "</script>\n\n\n")
+    
+    intro = "This is a placeholder for adding contents"
 
-
-    table = heads + "<table class='sortable-theme-bootstrap' data-sortable>\n"
+    table = heads + intro + "<table class='sortable-theme-bootstrap' data-sortable>\n"
 
     csv2html_converter(table, df, fileout, dirout)
