@@ -89,7 +89,7 @@ if __name__ == "__main__":
         "  }\n"
         "</script>\n\n\n")
     
-    intro = "This is a placeholder for adding contents"
+    intro = "This is a placeholder for adding contents, to add more"
 
     table = heads + intro + "<table class='sortable-theme-bootstrap' data-sortable>\n"
 
