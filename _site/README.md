@@ -1,6 +1,6 @@
 # Human-Centered Explainable NLP
 
-This is the Github repository to support the paper "Explaining the Road Not Taken", ACM CHI Operationalizing Human-Centered Perspectives in Explainable AI Workshop, 2021, available [here](https://human-centered-exnlp.github.io/). Please see its accompanying webiste at [Human-Centered Explainable NLP](https://human-centered-exnlp.github.io/).
+This is the Github repository to support the paper "Explaining the Road Not Taken", CHI 2021 HCXAI Workshop, paper available [here](https://human-centered-exnlp.github.io/). Please see its accompanying webiste at [Human-Centered Explainable NLP](https://human-centered-exnlp.github.io/).
 
 ## Contributions 
 Having any NLP explanation resource that we missed? Cool! Please feel free to [email us](huashen218@psu.edu) or open an pull request.
