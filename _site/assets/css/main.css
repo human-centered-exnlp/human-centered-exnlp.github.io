@@ -96,11 +96,11 @@ a:hover { color: #2F749C; text-decoration: underline; }
 /** Blockquotes */
 blockquote { color: #3F3F3F; padding-left: 25px; padding-right: 50px; font-size: 1.15rem; line-height: 1.84rem; }
 
-@media (max-width: 75em) { blockquote { font-size: 1.15rem; line-height: 1.84rem; } }
+@media (max-width: 75em) { blockquote { font-size: 1.15rem; line-height: 1.84rem;} }
 
 @media (max-width: 45em) { blockquote { font-size: 0.95rem; line-height: 1.84rem; } }
 
-blockquote > :last-child { margin-bottom: 0; }
+blockquote > :last-child { margin-bottom: 0; 
 
 /** Code formatting */
 p code, li code { font-size: 1rem; line-height: 1.6rem; }
@@ -686,6 +686,7 @@ form input[type=submit]:active { background: #2F749C; }
 
 
 
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -807,4 +808,43 @@ form input[type=submit]:active { background: #2F749C; }
     /* padding:30px;
     margin: 30px; */
     /* margin-bottom: $spacing-unit / 2; */
+}
+
+/* 
+blockquote { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:red;
+  }
+   */
+
+
+.citequote{
+    font-size: 10px; 
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 200; 
+    color: #3F3F3F; 
+    background-color: grey;
+}
+
+.formintro{
+    float: right;
+    width: 80%;
+    font-size: 10px; 
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 200; 
+    color: #3F3F3F; 
+    background-color: grey;
+}
+
+.formlist{
+    font-size: 17px; 
+    font-family:  "PT Serif", serif;
+    /* font-weight: 200;  */
+    /* color: #3F3F3F;  */
+    margin-top: 0px;
+    /* margin-bottom: 0px; */
 }

@@ -1,5 +1,4 @@
-Title,Year,"Venue
-(See Abbr -> Col-Q)",Paper URL,Feature Attribution (FIM),Probing (PRB),Tuple/Graph (TUP),Space Map (SPM),Rule/Grammar (RUL),Free Text (FRT),Concept/Sense (CPT),Example (EXP),Trigger (TRG),Word Cloud (WCL),Images (IMG),Confidence Score (CFD)
+Title,Year,Venue,Paper URL,Feature Attribution (FAT),Probing (PRB),Tuple/Graph (TUP),Space Map (SPM),Rule/Grammar (RUL),Free Text (FRT),Concept/Sense (CPT),Example (EXP),Trigger (TRG),Word Cloud (WCL),Images (IMG),Confidence Score (CFD)
 """ Why should I trust you?"" Explaining the predictions of any classifier",2016,KDD,https://arxiv.org/pdf/1602.04938.pdf,"Visualize: Figure 2.
 Description: ""Explaining individual predictions of competing classifiers trying to determine if a document
 is about “Christianity” or “Atheism”. The bar chart
@@ -764,7 +763,7 @@ projector, the data table, and the datapoint editor. """,,,,"Prediction Confiden
 Visualize: Figure1.
 Description: """"Tabs present different modules in the bottom half; the view above
 shows classifier predictions, an attention visualization, and a confusion matrix."""""""
-The Promise and Peril of Human Evaluation for Model Interpretability,2019,,https://arxiv.org/pdf/1711.07414v1.pdf,,,,"Description: ""An interpretable explanation, or explanation, is a simple model, visualization, or text description that lies in an interpretable feature space and approximates a more complex model.""",,"Description: ""In contrast to descriptive explanations, persuasive explanation strategiesdo not achieve maximum
+The Promise and Peril of Human Evaluation for Model Interpretability,2019,NeurIPS 2017 Symposium on Interpretable Machine Learning,https://arxiv.org/pdf/1711.07414v1.pdf,,,,"Description: ""An interpretable explanation, or explanation, is a simple model, visualization, or text description that lies in an interpretable feature space and approximates a more complex model.""",,"Description: ""In contrast to descriptive explanations, persuasive explanation strategiesdo not achieve maximum
 model fidelity and often incorporate user preferences, knowledge, or characteristics. Much like a
 persuasive argument, these explanations balance accuracy with being convincing to the user. """,,,,,,
 "Toward Machine-Guided, Human-Initiated Explanatory Interactive Learning",2020,TAILOR workshop at ECAI ,https://arxiv.org/pdf/2007.10018.pdf,,,,"Decision Surface/Decesion Boundary:
