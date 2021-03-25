@@ -7,6 +7,8 @@ layout: default
   <link rel='stylesheet' href='/assets/css/sortable-theme-bootstrap.css' />
   <script src='/assets/js/sortable.min.js'></script>
   <link rel='stylesheet' href='/assets/css/main.css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
+  <!--  See All Google Icons Here: https://material.io/resources/icons/?icon=cloud_download&style=baseline -->
 </head>
 
 
@@ -31,25 +33,37 @@ layout: default
         <div class="form-column">
           <span class="citationtitle">Short Intro:</span>
             <p>
-                This is an collection of 218 NLP Explanation studies. Each paper includes: Paper Tile, Paper Link, Published Year, Published Year, Form Annotations. 
-                <br>You can sort the Table heads w.r.t. forms you need to view.
+              <!-- <i class="material-icons" style="font-size:22px;color:#F4D03F;">star_purple500</i> &nbsp -->
+                This is a collection of <a class='page-link' href=''><strong>218 NLP Explanation</strong></a> studies:
                 
                 <br><span>
-                {% include _icons/twitter.html %} 
-                If you need the table as a <a class='page-link' href='/assets/files/xai_forms.csv' download='human_centered_exnlp_forms'><strong>'.csv'</strong></a> file, please <a class='page-link' href='/assets/files/xai_forms.csv' download='human_centered_exnlp_forms'><strong>download it here</strong></a>.</span>
+                <i class="material-icons" style="font-size:22px;color:lightblue;">library_books</i> &nbsp
+                Each paper includes: <a class='page-link' href=''><i>Paper Tile</i></a>, <a class='page-link' href=''><i>Paper Link</i></a>, <a class='page-link' href=''><i>Published Year</i></a>, <a class='page-link' href=''><i>Published Venue</i></a>, <a class='page-link' href=''><i>Form Annotations</i></a>. 
+                
+                <br><span>
+                <i class="material-icons" style="font-size:22px;color:lightblue;">sort_by_alpha</i> &nbsp
+                You can click the <a class='page-link' href=''><strong>Table Headers</strong></a> to sort each column to find your need.
+                </span>
+                
+
+                <br><span>
+                <i class="material-icons" style="font-size:22px;color:lightblue;">cloud_download</i> &nbsp
+                If you need the table as a <a class='page-link' href='/assets/files/xai_forms.csv' download='human_centered_exnlp_forms'><strong>'.csv'</strong></a> file, please <a class='page-link' href='/assets/files/xai_forms.csv' download='human_centered_exnlp_forms'><strong>download it here</strong></a>.
+                </span>
+
             </p>
           </span>
         </div>
 
         <div class="form-column">
-          <span class="citationtitle">Cite the Form:</span>
+          <span class="citationtitle">Cite the Forms:</span>
           <div class="citation">
-            <pre>@article{exnlp:2021:hxcai,
-            title = {Explaining the Road Not Taken},
-            author = {Shen, Hua  and  Huang, Ting-Hao (Kenneth)},
-            journal = {ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI},
-            year = {2021}
-            }</pre> 
+            <pre>@article{human-centered-exnlp:2021:hxcai,
+        author = {Shen, Hua  and  Huang, Ting-Hao (Kenneth)},
+        title = {Explaining the Road Not Taken},
+        journal = {ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI},
+        year = {2021}
+        }</pre> 
           </div>
         </div>
     </div>

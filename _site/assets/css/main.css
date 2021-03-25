@@ -766,8 +766,8 @@ form input[type=submit]:active { background: #2F749C; }
 
 
 .citation{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     width: 550px;
     font-size: 15px; 
     font-family: "Cabri", "Open Sans", sans-serif;  
