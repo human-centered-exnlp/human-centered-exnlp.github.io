@@ -760,9 +760,8 @@ form input[type=submit]:active { background: #2F749C; }
     color: #3F3F3F; 
     /* overflow-x: scroll;
     overflow-y: hidden; */
-    padding: 0;
-    padding-bottom: 0px;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 
 
@@ -773,11 +772,13 @@ form input[type=submit]:active { background: #2F749C; }
     font-size: 15px; 
     font-family: "Cabri", "Open Sans", sans-serif;  
     background-color: #EFF5FB;
-    overflow-x: scroll;
+    overflow-x: auto;
+    overflow: visible;
     border-style: solid;
     border-color: #E5E7E9;
     border-width: 10px;
 }
+
 
 
 /* Clear floats after the columns */
