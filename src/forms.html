@@ -27,7 +27,7 @@ layout: default
 
 
 
-<div class='homemain'>
+<div class='formmain'>
 
     <div class="form-row">
         <div class="form-column">
@@ -39,17 +39,21 @@ layout: default
                 <br><span>
                 <i class="material-icons" style="font-size:22px;color:lightblue;">library_books</i> &nbsp
                 Each paper includes: <a class='page-link' href=''><i>Paper Tile</i></a>, <a class='page-link' href=''><i>Paper Link</i></a>, <a class='page-link' href=''><i>Published Year</i></a>, <a class='page-link' href=''><i>Published Venue</i></a>, <a class='page-link' href=''><i>Form Annotations</i></a>. 
-                
+
                 <br><span>
                 <i class="material-icons" style="font-size:22px;color:lightblue;">sort_by_alpha</i> &nbsp
                 You can click the <a class='page-link' href=''><strong>Table Headers</strong></a> to sort each column to find your need.
                 </span>
                 
-
                 <br><span>
                 <i class="material-icons" style="font-size:22px;color:lightblue;">cloud_download</i> &nbsp
                 If you need the table as a <a class='page-link' href='/assets/files/xai_forms.csv' download='human_centered_exnlp_forms'><strong>'.csv'</strong></a> file, please <a class='page-link' href='/assets/files/xai_forms.csv' download='human_centered_exnlp_forms'><strong>download it here</strong></a>.
                 </span>
+
+                <br>
+                <a class='page-link' href='https://human-centered-exnlp.github.io'>
+                  <button type="button" class="form-button" style="width:300px">Back to Homepage</button>
+                </a>
 
             </p>
           </span>
@@ -57,7 +61,7 @@ layout: default
 
         <div class="form-column">
           <span class="citationtitle">Cite the Forms:</span>
-          <div class="citation">
+          <div class="formcitation">
             <pre>@article{human-centered-exnlp:2021:hxcai,
         author = {Shen, Hua and Huang, Ting-Hao (Kenneth)},
         title = {Explaining the Road Not Taken},
@@ -75,15 +79,15 @@ layout: default
 
 
 <table class='sortable-theme-bootstrap' data-sortable>
-  <thead>
-    <th init-sort>ID</th>
+  <thead text-align: top;>
+    <th style="vertical-align: bottom" init-sort> ID </th>
     <th>Title</th>
     <th>Year</th>
     <th>Venue (<a class='page-link' href='/assets/files/venues.html'>Abbreviation List</a>)</th>
     <th>Feature Attribution (FAT)</th>
     <th>Probing (PRB)</th>
     <th>Tuple/Graph (TUP)</th>
-    <th>Space Map (SPM)</th>
+    <th>Projection Space (PSP)</th>
     <th>Rule/Grammar (RUL)</th>
     <th>Free Text (FRT)</th>
     <th>Concept/Sense (CPT)</th>

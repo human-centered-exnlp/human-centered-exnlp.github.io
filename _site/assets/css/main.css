@@ -724,13 +724,19 @@ form input[type=submit]:active { background: #2F749C; }
 
 .homemain{
     float: right;
-    width: 80%;
+    width: 100%;
     /* max-width: 600px; */
     /* padding: 15px; */
     /* padding-right: 10%; */
 }
 
-
+.formmain{
+    float: right;
+    width: 80%;
+    /* max-width: 600px; */
+    /* padding: 15px; */
+    /* padding-right: 10%; */
+}
 
 .photograph-show{
     width:180px;
@@ -768,7 +774,7 @@ form input[type=submit]:active { background: #2F749C; }
 .citation{
     /* margin: 0;
     padding: 0; */
-    width: 550px;
+    width: 700px;
     font-size: 15px; 
     font-family: "Cabri", "Open Sans", sans-serif;  
     background-color: #EFF5FB;
@@ -779,6 +785,21 @@ form input[type=submit]:active { background: #2F749C; }
     border-width: 10px;
 }
 
+
+
+.formcitation{
+    /* margin: 0;
+    padding: 0; */
+    width: 550px;
+    font-size: 15px; 
+    font-family: "Cabri", "Open Sans", sans-serif;  
+    background-color: #EFF5FB;
+    overflow-x: auto;
+    overflow: visible;
+    border-style: solid;
+    border-color: #E5E7E9;
+    border-width: 10px;
+}
 
 
 /* Clear floats after the columns */
@@ -799,3 +820,23 @@ form input[type=submit]:active { background: #2F749C; }
     height: 300px; /* Should be removed. Only for demonstration */
   }
 
+
+
+.form-button{
+    margin:20px;
+    padding: 5px;
+    background-color: #2F749C;
+    width: 80%;
+    height: 40px;
+    color: white;
+    font-family: "Cabri", "Open Sans", sans-serif;  
+    font-size: 15px; 
+    /* align-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.form-button:hover {
+    cursor: pointer;
+  }

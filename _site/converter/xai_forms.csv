@@ -1,4 +1,4 @@
-Title,Year,Venue,Paper URL,Feature Attribution (FAT),Probing (PRB),Tuple/Graph (TUP),Space Map (SPM),Rule/Grammar (RUL),Free Text (FRT),Concept/Sense (CPT),Example (EXP),Trigger (TRG),Word Cloud (WCL),Images (IMG),Confidence Score (CFD)
+Title,Year,Venue,Paper URL,Feature Attribution (FAT),Probing (PRB),Tuple/Graph (TUP),Projection Space (PSP),Rule/Grammar (RUL),Free Text (FRT),Concept/Sense (CPT),Example (EXP),Trigger (TRG),Word Cloud (WCL),Images (IMG),Confidence Score (CFD)
 """ Why should I trust you?"" Explaining the predictions of any classifier",2016,KDD,https://arxiv.org/pdf/1602.04938.pdf,"Visualize: Figure 2.
 Description: ""Explaining individual predictions of competing classifiers trying to determine if a document
 is about “Christianity” or “Atheism”. The bar chart
